@@ -28,15 +28,15 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-23 13:57+0200\n"
-"PO-Revision-Date: 2016-08-23 13:57+0000\n"
+"PO-Revision-Date: 2019-12-22 16:10+0800\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
-"Language-Team: Chinese (http://www.transifex.com/geonode/geonode/language/"
-"zh/)\n"
+"Language-Team: Chinese (http://www.transifex.com/geonode/geonode/language/zh/)\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: geonode/base/__init__.py:27
 msgid "Request to download a resource"
@@ -162,16 +162,8 @@ msgstr "数据每三个月更新一次"
 msgid "No information provided"
 msgstr "无信息提供"
 
-#: geonode/base/forms.py:213
-#: geonode/base/templates/base/_resourcebase_info_panel.html:62
-#: geonode/catalogue/templates/geonode_metadata_full.html:144
-#: geonode/documents/templates/documents/document_metadata_advanced.html:63
-#: geonode/documents/templates/layouts/doc_panels.html:94
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:80
-#: geonode/layers/templates/layouts/panels.html:315
-#: geonode/maps/templates/layouts/map_panels.html:113
-#: geonode/maps/templates/maps/map_metadata_advanced.html:58
-#: geonode/templates/metadata_detail.html:88
+#: geonode/base/forms.py:213 geonode/base/templates/base/_resourcebase_info_panel.html:62 geonode/catalogue/templates/geonode_metadata_full.html:144 geonode/documents/templates/documents/document_metadata_advanced.html:63 geonode/documents/templates/layouts/doc_panels.html:94 geonode/layers/templates/layers/layer_metadata_advanced.html:80 geonode/layers/templates/layouts/panels.html:315 geonode/maps/templates/layouts/map_panels.html:113
+#: geonode/maps/templates/maps/map_metadata_advanced.html:58 geonode/templates/metadata_detail.html:88
 msgid "Category"
 msgstr "类别"
 
@@ -187,20 +179,11 @@ msgstr "来自 Thesauri 的关键词"
 msgid "List of keywords from Thesaurus"
 msgstr "来自 Thesauri 的关键词列表"
 
-#: geonode/base/forms.py:255 geonode/base/models.py:456
-#: geonode/base/templates/base/_resourcebase_contact_snippet.html:10
-#: geonode/base/templates/base/_resourcebase_info_panel.html:84
-#: geonode/catalogue/templates/geonode_metadata_full.html:71
-#: geonode/templates/metadata_detail.html:112
+#: geonode/base/forms.py:255 geonode/base/models.py:456 geonode/base/templates/base/_resourcebase_contact_snippet.html:10 geonode/base/templates/base/_resourcebase_info_panel.html:84 geonode/catalogue/templates/geonode_metadata_full.html:71 geonode/templates/metadata_detail.html:112
 msgid "Owner"
 msgstr "所有者"
 
-#: geonode/base/forms.py:274
-#: geonode/base/templates/base/_resourcebase_info_panel.html:34
-#: geonode/catalogue/templates/geonode_metadata_full.html:57
-#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:13
-#: geonode/templates/metadata_detail.html:71
-#: geonode/templates/search/_general_filters.html:33
+#: geonode/base/forms.py:274 geonode/base/templates/base/_resourcebase_info_panel.html:34 geonode/catalogue/templates/geonode_metadata_full.html:57 geonode/contrib/exif/templates/exif/_exif_document_detail.html:13 geonode/templates/metadata_detail.html:71 geonode/templates/search/_general_filters.html:33
 msgid "Date"
 msgstr "日期"
 
@@ -216,30 +199,12 @@ msgstr "结束时间"
 msgid "Person outside GeoNode (fill form)"
 msgstr "在GeoNode（填表）之外的人"
 
-#: geonode/base/forms.py:296
-#: geonode/base/templates/base/_resourcebase_contact_snippet.html:14
-#: geonode/base/templates/base/_resourcebase_info_panel.html:89
-#: geonode/catalogue/templates/geonode_metadata_full.html:74
-#: geonode/documents/templates/documents/document_metadata.html:48
-#: geonode/documents/templates/documents/document_metadata.html:72
-#: geonode/documents/templates/documents/document_metadata_advanced.html:38
-#: geonode/documents/templates/documents/document_metadata_advanced.html:87
-#: geonode/layers/templates/layers/layer_metadata.html:54
-#: geonode/layers/templates/layers/layer_metadata.html:85
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:44
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:125
-#: geonode/maps/templates/maps/map_metadata.html:69
-#: geonode/maps/templates/maps/map_metadata_advanced.html:82
+#: geonode/base/forms.py:296 geonode/base/templates/base/_resourcebase_contact_snippet.html:14 geonode/base/templates/base/_resourcebase_info_panel.html:89 geonode/catalogue/templates/geonode_metadata_full.html:74 geonode/documents/templates/documents/document_metadata.html:48 geonode/documents/templates/documents/document_metadata.html:72 geonode/documents/templates/documents/document_metadata_advanced.html:38
+#: geonode/documents/templates/documents/document_metadata_advanced.html:87 geonode/layers/templates/layers/layer_metadata.html:54 geonode/layers/templates/layers/layer_metadata.html:85 geonode/layers/templates/layers/layer_metadata_advanced.html:44 geonode/layers/templates/layers/layer_metadata_advanced.html:125 geonode/maps/templates/maps/map_metadata.html:69 geonode/maps/templates/maps/map_metadata_advanced.html:82
 msgid "Point of Contact"
 msgstr "切点"
 
-#: geonode/base/forms.py:304
-#: geonode/base/templates/base/_resourcebase_contact_snippet.html:18
-#: geonode/documents/templates/documents/document_metadata.html:44
-#: geonode/documents/templates/documents/document_metadata_advanced.html:34
-#: geonode/layers/templates/layers/layer_metadata.html:50
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:40
-#: geonode/templates/metadata_detail.html:331
+#: geonode/base/forms.py:304 geonode/base/templates/base/_resourcebase_contact_snippet.html:18 geonode/documents/templates/documents/document_metadata.html:44 geonode/documents/templates/documents/document_metadata_advanced.html:34 geonode/layers/templates/layers/layer_metadata.html:50 geonode/layers/templates/layers/layer_metadata_advanced.html:40 geonode/templates/metadata_detail.html:331
 msgid "Metadata Author"
 msgstr "元数据作者"
 
@@ -248,18 +213,10 @@ msgid "Free-text Keywords"
 msgstr "自由文本关键词"
 
 #: geonode/base/forms.py:313
-#, fuzzy
-#| msgid "A space or comma-separated list of keywords"
-msgid ""
-"A space or comma-separated list of keywords. Use the widget to select from "
-"Hierarchical tree."
-msgstr "用空格或者逗号隔开的关键词"
+msgid "A space or comma-separated list of keywords. Use the widget to select from Hierarchical tree."
+msgstr "用空格或者逗号隔开的关键词。使用控件从层次树中选择。"
 
-#: geonode/base/forms.py:324
-#: geonode/base/templates/base/_resourcebase_info_panel.html:72
-#: geonode/catalogue/templates/geonode_metadata_full.html:148
-#: geonode/templates/metadata_detail.html:98
-#: geonode/templates/search/_region_filter.html:5
+#: geonode/base/forms.py:324 geonode/base/templates/base/_resourcebase_info_panel.html:72 geonode/catalogue/templates/geonode_metadata_full.html:148 geonode/templates/metadata_detail.html:98 geonode/templates/search/_region_filter.html:5
 msgid "Regions"
 msgstr "地区"
 
@@ -292,25 +249,15 @@ msgid "summary of the intentions with which the resource(s) was developed"
 msgstr "总结生成资源的动机"
 
 #: geonode/base/models.py:434
-msgid ""
-"frequency with which modifications and deletions are made to the data after "
-"it is first produced"
+msgid "frequency with which modifications and deletions are made to the data after it is first produced"
 msgstr "数据首次生成后的修改及删除频率"
 
 #: geonode/base/models.py:436
-msgid ""
-"commonly used word(s) or formalised word(s) or phrase(s) used to describe "
-"the subject (space or comma-separated"
+msgid "commonly used word(s) or formalised word(s) or phrase(s) used to describe the subject (space or comma-separated"
 msgstr "常用词汇或固定短语(用空格或逗号隔开"
 
 #: geonode/base/models.py:438
-#, fuzzy
-#| msgid ""
-#| "commonly used word(s) or formalised word(s) or phrase(s) used to describe "
-#| "the subject (space or comma-separated"
-msgid ""
-"formalised word(s) or phrase(s) from a fixed thesaurus used to describe the "
-"subject (space or comma-separated"
+msgid "formalised word(s) or phrase(s) from a fixed thesaurus used to describe the subject (space or comma-separated"
 msgstr "常用词汇或固定短语(用空格或逗号隔开"
 
 #: geonode/base/models.py:440
@@ -322,9 +269,7 @@ msgid "limitation(s) placed upon the access or use of the data."
 msgstr "限制（多个）放置在所述数据的访问或使用。"
 
 #: geonode/base/models.py:442
-msgid ""
-"other restrictions and legal prerequisites for accessing and using the "
-"resource or metadata"
+msgid "other restrictions and legal prerequisites for accessing and using the resource or metadata"
 msgstr "使用资料或元数据的限制及法律前提"
 
 #: geonode/base/models.py:444
@@ -336,9 +281,7 @@ msgid "language used within the dataset"
 msgstr "数据集使用语言"
 
 #: geonode/base/models.py:446
-msgid ""
-"high-level geographic data thematic classification to assist in the grouping "
-"and search of available geographic data sets."
+msgid "high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets."
 msgstr "用以助于地理信息搜集的高层次地理信息分类"
 
 #: geonode/base/models.py:448
@@ -354,9 +297,7 @@ msgid "time period covered by the content of the dataset (end)"
 msgstr "数据集所覆盖时间段 (结束日期)"
 
 #: geonode/base/models.py:451
-msgid ""
-"general explanation of the data producer's knowledge about the lineage of a "
-"dataset"
+msgid "general explanation of the data producer's knowledge about the lineage of a dataset"
 msgstr "数据生产者对于数据集沿袭知识的基本解释"
 
 #: geonode/base/models.py:458
@@ -407,12 +348,7 @@ msgstr "限制"
 msgid "restrictions other"
 msgstr "其他限制"
 
-#: geonode/base/models.py:482
-#: geonode/base/templates/base/_resourcebase_info_panel.html:16
-#: geonode/base/templates/base/_resourcebase_info_panel.html:108
-#: geonode/catalogue/templates/geonode_metadata_full.html:97
-#: geonode/templates/metadata_detail.html:57
-#: geonode/templates/metadata_detail.html:193
+#: geonode/base/models.py:482 geonode/base/templates/base/_resourcebase_info_panel.html:16 geonode/base/templates/base/_resourcebase_info_panel.html:108 geonode/catalogue/templates/geonode_metadata_full.html:97 geonode/templates/metadata_detail.html:57 geonode/templates/metadata_detail.html:193
 msgid "License"
 msgstr "许可"
 
@@ -504,9 +440,7 @@ msgstr "比如“在谷歌地球中查看”"
 msgid "For example \"text/xml\""
 msgstr "比如“text/xml”"
 
-#: geonode/base/templates/base/_resourcebase_contact_snippet.html:3
-#: geonode/templates/500.html:151 geonode/templates/base.html:86
-#: geonode/templates/base.html.py:230
+#: geonode/base/templates/base/_resourcebase_contact_snippet.html:3 geonode/templates/500.html:151 geonode/templates/base.html:86 geonode/templates/base.html.py:230
 msgid "About"
 msgstr "关于"
 
@@ -514,41 +448,23 @@ msgstr "关于"
 msgid "Owner, Point of Contact, Metadata Author"
 msgstr "所有者，联系点，元数据作者"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:6
-#: geonode/catalogue/templates/geonode_metadata_full.html:54
-#: geonode/groups/models.py:78 geonode/services/forms.py:44
-#: geonode/templates/announcements/announcement_list.html:20
-#: geonode/templates/metadata_detail.html:43
+#: geonode/base/templates/base/_resourcebase_info_panel.html:6 geonode/catalogue/templates/geonode_metadata_full.html:54 geonode/groups/models.py:78 geonode/services/forms.py:44 geonode/templates/announcements/announcement_list.html:20 geonode/templates/metadata_detail.html:43
 msgid "Title"
 msgstr "标题"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:11
-#: geonode/base/templates/base/_resourcebase_info_panel.html:103
+#: geonode/base/templates/base/_resourcebase_info_panel.html:11 geonode/base/templates/base/_resourcebase_info_panel.html:103
 msgid "SRID"
 msgstr ""
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:29
-#: geonode/catalogue/templates/geonode_metadata_full.html:60
-#: geonode/services/forms.py:49 geonode/templates/metadata_detail.html:48
+#: geonode/base/templates/base/_resourcebase_info_panel.html:29 geonode/catalogue/templates/geonode_metadata_full.html:60 geonode/services/forms.py:49 geonode/templates/metadata_detail.html:48
 msgid "Abstract"
 msgstr "摘要"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:45
-#: geonode/catalogue/templates/geonode_metadata_full.html:90
-#: geonode/layers/templates/layers/layer_detail.html:513
-#: geonode/templates/metadata_detail.html:76
+#: geonode/base/templates/base/_resourcebase_info_panel.html:45 geonode/catalogue/templates/geonode_metadata_full.html:90 geonode/layers/templates/layers/layer_detail.html:513 geonode/templates/metadata_detail.html:76
 msgid "Type"
 msgstr "类型"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:50
-#: geonode/catalogue/templates/geonode_metadata_full.html:141
-#: geonode/groups/models.py:88
-#: geonode/people/templates/people/profile_detail.html:103
-#: geonode/templates/metadata_detail.html:81
-#: geonode/templates/metadata_detail.html:142
-#: geonode/templates/metadata_detail.html:284
-#: geonode/templates/metadata_detail.html:360
-#: geonode/templates/search/_h_keywords_filter.html:3
+#: geonode/base/templates/base/_resourcebase_info_panel.html:50 geonode/catalogue/templates/geonode_metadata_full.html:141 geonode/groups/models.py:88 geonode/people/templates/people/profile_detail.html:103 geonode/templates/metadata_detail.html:81 geonode/templates/metadata_detail.html:142 geonode/templates/metadata_detail.html:284 geonode/templates/metadata_detail.html:360 geonode/templates/search/_h_keywords_filter.html:3
 msgid "Keywords"
 msgstr "关键词"
 
@@ -556,63 +472,43 @@ msgstr "关键词"
 msgid "More info"
 msgstr "更多信息"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:121
-#: geonode/catalogue/templates/geonode_metadata_full.html:87
-#: geonode/templates/metadata_detail.html:206
+#: geonode/base/templates/base/_resourcebase_info_panel.html:121 geonode/catalogue/templates/geonode_metadata_full.html:87 geonode/templates/metadata_detail.html:206
 msgid "Maintenance Frequency"
 msgstr "维护频率"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:126
-#: geonode/catalogue/templates/geonode_metadata_full.html:93
-#: geonode/templates/metadata_detail.html:211
+#: geonode/base/templates/base/_resourcebase_info_panel.html:126 geonode/catalogue/templates/geonode_metadata_full.html:93 geonode/templates/metadata_detail.html:211
 msgid "Restrictions"
 msgstr "限制"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:135
-#: geonode/catalogue/templates/geonode_metadata_full.html:63
-#: geonode/templates/metadata_detail.html:220
+#: geonode/base/templates/base/_resourcebase_info_panel.html:135 geonode/catalogue/templates/geonode_metadata_full.html:63 geonode/templates/metadata_detail.html:220
 msgid "Edition"
 msgstr "版本"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:140
-#: geonode/catalogue/templates/geonode_metadata_full.html:79
-#: geonode/templates/metadata_detail.html:225
+#: geonode/base/templates/base/_resourcebase_info_panel.html:140 geonode/catalogue/templates/geonode_metadata_full.html:79 geonode/templates/metadata_detail.html:225
 msgid "Purpose"
 msgstr "目的"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:145
-#: geonode/catalogue/templates/geonode_metadata_full.html:100
-#: geonode/templates/500.html:154 geonode/templates/base.html:232
-#: geonode/templates/metadata_detail.html:230
+#: geonode/base/templates/base/_resourcebase_info_panel.html:145 geonode/catalogue/templates/geonode_metadata_full.html:100 geonode/templates/500.html:154 geonode/templates/base.html:232 geonode/templates/metadata_detail.html:230
 msgid "Language"
 msgstr "语言"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:150
-#: geonode/catalogue/templates/geonode_metadata_full.html:103
-#: geonode/templates/metadata_detail.html:235
+#: geonode/base/templates/base/_resourcebase_info_panel.html:150 geonode/catalogue/templates/geonode_metadata_full.html:103 geonode/templates/metadata_detail.html:235
 msgid "Temporal Extent"
 msgstr "时间跨度"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:155
-#: geonode/catalogue/templates/geonode_metadata_full.html:121
-#: geonode/templates/metadata_detail.html:240
+#: geonode/base/templates/base/_resourcebase_info_panel.html:155 geonode/catalogue/templates/geonode_metadata_full.html:121 geonode/templates/metadata_detail.html:240
 msgid "Data Quality"
 msgstr "数据质量"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:160
-#: geonode/catalogue/templates/geonode_metadata_full.html:118
-#: geonode/templates/metadata_detail.html:245
+#: geonode/base/templates/base/_resourcebase_info_panel.html:160 geonode/catalogue/templates/geonode_metadata_full.html:118 geonode/templates/metadata_detail.html:245
 msgid "Supplemental Information"
 msgstr "补充信息"
 
-#: geonode/base/templates/base/_resourcebase_info_panel.html:165
-#: geonode/templates/metadata_detail.html:250
+#: geonode/base/templates/base/_resourcebase_info_panel.html:165 geonode/templates/metadata_detail.html:250
 msgid "Spatial Representation Type"
 msgstr "空间呈现类型"
 
-#: geonode/base/templates/base/_resourcebase_snippet.html:44
-#: geonode/layers/templates/layers/layer_detail.html:462
-#: geonode/templates/search/_search_content.html:16
+#: geonode/base/templates/base/_resourcebase_snippet.html:44 geonode/layers/templates/layers/layer_detail.html:462 geonode/templates/search/_search_content.html:16
 msgid "Create a Map"
 msgstr "创建一张地图"
 
@@ -632,18 +528,15 @@ msgstr "制作"
 msgid "Model"
 msgstr "模型"
 
-#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:15
-#: geonode/layers/templates/upload/layer_upload_csv.html:24
+#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:15 geonode/layers/templates/upload/layer_upload_csv.html:24
 msgid "Latitude"
 msgstr "纬度"
 
-#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:16
-#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:18
+#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:16 geonode/contrib/exif/templates/exif/_exif_document_detail.html:18
 msgid "Not specified"
 msgstr "未标明的"
 
-#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:17
-#: geonode/layers/templates/upload/layer_upload_csv.html:37
+#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:17 geonode/layers/templates/upload/layer_upload_csv.html:37
 msgid "Longitude"
 msgstr "经度"
 
@@ -651,15 +544,11 @@ msgstr "经度"
 msgid "Flash"
 msgstr "闪现"
 
-#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:20
-#: geonode/layers/templates/layers/layer_detail.html:148
-#: geonode/layers/templates/layers/layer_detail.html:153
+#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:20 geonode/layers/templates/layers/layer_detail.html:148 geonode/layers/templates/layers/layer_detail.html:153
 msgid "True"
 msgstr "正确"
 
-#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:20
-#: geonode/layers/templates/layers/layer_detail.html:148
-#: geonode/layers/templates/layers/layer_detail.html:153
+#: geonode/contrib/exif/templates/exif/_exif_document_detail.html:20 geonode/layers/templates/layers/layer_detail.html:148 geonode/layers/templates/layers/layer_detail.html:153
 msgid "False"
 msgstr "错误"
 
@@ -667,83 +556,61 @@ msgstr "错误"
 msgid "Speed Rating"
 msgstr "速度打分"
 
-#: geonode/contrib/favorite/readme.txt:38
-#: geonode/contrib/favorite/templates/favorite/_favorite.html:5
+#: geonode/contrib/favorite/readme.txt:38 geonode/contrib/favorite/templates/favorite/_favorite.html:5
 msgid "Favorite"
-msgstr "喜爱的"
+msgstr "收藏"
 
-#: geonode/contrib/favorite/readme.txt:68
-#: geonode/contrib/favorite/readme.txt:76
+#: geonode/contrib/favorite/readme.txt:68 geonode/contrib/favorite/readme.txt:76
 msgid "Favorites"
-msgstr "喜爱"
+msgstr "收藏夹"
 
 #: geonode/contrib/favorite/templates/favorite/_favorite.html:17
 msgid "Log in to add/delete Favorites."
-msgstr "登录去添加／删除收喜爱"
+msgstr "登录以添加／删除收藏夹"
 
 #: geonode/contrib/favorite/templates/favorite/_favorite_js.html:23
 msgid "Delete from Favorites"
-msgstr "从喜爱中删除"
+msgstr "从收藏夹中删除"
 
 #: geonode/contrib/favorite/templates/favorite/_favorite_js.html:26
 msgid "Add to Favorites"
-msgstr "添加到喜爱"
+msgstr "添加到收藏夹"
 
 #: geonode/contrib/favorite/templates/favorite/favorite_list.html:8
 msgid "Favorites for"
-msgstr "喜爱"
+msgstr "收藏"
 
-#: geonode/contrib/geosites/site_template/templates/site_index.html:9
-#: geonode/contrib/geosites/templates/master_index.html:10
-#: geonode/templates/index.html:15
+#: geonode/contrib/geosites/site_template/templates/site_index.html:9 geonode/contrib/geosites/templates/master_index.html:10 geonode/templates/index.html:15
 msgid "Welcome"
 msgstr "欢迎"
 
-#: geonode/contrib/geosites/site_template/templates/site_index.html:10
-#: geonode/contrib/geosites/templates/master_index.html:11
-#: geonode/templates/index.html:17
-msgid ""
-"GeoNode is an open source platform for sharing geospatial data and maps."
+#: geonode/contrib/geosites/site_template/templates/site_index.html:10 geonode/contrib/geosites/templates/master_index.html:11 geonode/templates/index.html:17
+msgid "GeoNode is an open source platform for sharing geospatial data and maps."
 msgstr "GeoNode是共享地理空间数据和地图的开放源码平台。"
 
-#: geonode/contrib/geosites/site_template/templates/site_index.html:11
-#: geonode/contrib/geosites/templates/master_index.html:12
-msgid ""
-"If you have any questions about the software or service, join our <a href="
-"\"https://groups.google.com/d/forum/geonode-users\">mailing list</a>."
-msgstr ""
-"如果您对软件或服务有任何疑问，请加入我们的<a href=\"https://groups.google."
-"com/d/forum/geonode-users\">邮件列表</a> 。"
+#: geonode/contrib/geosites/site_template/templates/site_index.html:11 geonode/contrib/geosites/templates/master_index.html:12
+msgid "If you have any questions about the software or service, join our <a href=\"https://groups.google.com/d/forum/geonode-users\">mailing list</a>."
+msgstr "如果您对软件或服务有任何疑问，请加入我们的<a href=\"https://groups.google.com/d/forum/geonode-users\">邮件列表</a> 。"
 
-#: geonode/contrib/geosites/site_template/templates/site_index.html:12
-#: geonode/contrib/geosites/templates/master_index.html:13
+#: geonode/contrib/geosites/site_template/templates/site_index.html:12 geonode/contrib/geosites/templates/master_index.html:13
 msgid "Need help?"
 msgstr "需要帮助吗？"
 
-#: geonode/contrib/geosites/site_template/templates/site_index.html:12
-#: geonode/contrib/geosites/templates/master_index.html:13
+#: geonode/contrib/geosites/site_template/templates/site_index.html:12 geonode/contrib/geosites/templates/master_index.html:13
 msgid "Getting Started"
 msgstr "入门"
 
-#: geonode/contrib/geosites/templates/master_index.html:25
-#: geonode/contrib/geosites/templates/master_index.html:35
-#: geonode/contrib/geosites/templates/master_index.html:45
-#: geonode/templates/metadata_detail.html:103
-#: geonode/templates/metadata_detail.html:106
+#: geonode/contrib/geosites/templates/master_index.html:25 geonode/contrib/geosites/templates/master_index.html:35 geonode/contrib/geosites/templates/master_index.html:45 geonode/templates/metadata_detail.html:103 geonode/templates/metadata_detail.html:106
 msgid "No"
 msgstr "没有"
 
-#: geonode/contrib/geosites/templates/master_index.html:25
-#: geonode/layers/templates/layers/layer_detail.html:364
-#: geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:7
+#: geonode/contrib/geosites/templates/master_index.html:25 geonode/layers/templates/layers/layer_detail.html:364 geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:7
 msgid "Layer"
 msgid_plural "Layers"
 msgstr[0] "图层"
 
 #: geonode/contrib/geosites/templates/master_index.html:26
-msgid ""
-"Click to search for geospatial data published by other users, organizations "
-"and public sources. Download data in standard formats."
+msgid "Click to search for geospatial data published by other users, organizations and public sources. Download data in standard formats."
 msgstr "点击搜索其他用户，组织和公共资源出版的地理空间数据。以标准格式下载。"
 
 #: geonode/contrib/geosites/templates/master_index.html:28
@@ -754,19 +621,14 @@ msgstr "添加图层"
 msgid "Explore layers"
 msgstr "浏览图层"
 
-#: geonode/contrib/geosites/templates/master_index.html:35
-#: geonode/maps/templates/maps/map_detail.html:147
-#: geonode/maps/templates/maps/map_view.html:6
+#: geonode/contrib/geosites/templates/master_index.html:35 geonode/maps/templates/maps/map_detail.html:147 geonode/maps/templates/maps/map_view.html:6
 msgid "Map"
 msgid_plural "Maps"
 msgstr[0] "地图"
 
 #: geonode/contrib/geosites/templates/master_index.html:36
-msgid ""
-"Data is available for browsing, aggregating and styling to generate maps "
-"which can be shared publicly or restricted to specific users only."
-msgstr ""
-"数据可用于浏览，汇总和造型来生成的地图可以公开共享，或仅限于特定的用户。"
+msgid "Data is available for browsing, aggregating and styling to generate maps which can be shared publicly or restricted to specific users only."
+msgstr "数据可用于浏览，汇总和造型来生成的地图可以公开共享，或仅限于特定的用户。"
 
 #: geonode/contrib/geosites/templates/master_index.html:38
 msgid "Create maps"
@@ -776,26 +638,20 @@ msgstr "创建地图"
 msgid "Explore maps"
 msgstr "浏览地图"
 
-#: geonode/contrib/geosites/templates/master_index.html:45
-#: geonode/templates/pinax/notifications/account_approve/full.txt:1
+#: geonode/contrib/geosites/templates/master_index.html:45 geonode/templates/pinax/notifications/account_approve/full.txt:1
 msgid "User"
 msgid_plural "Users"
 msgstr[0] "用户"
 
 #: geonode/contrib/geosites/templates/master_index.html:46
-msgid ""
-"GeoNode allows registered users to easily upload geospatial data in several "
-"formats including shapefile and GeoTiff."
-msgstr ""
-"GeoNode允许注册用户轻松实现上传的地理空间数据以多种格式，包括shape文件和支持"
-"GeoTiff。"
+msgid "GeoNode allows registered users to easily upload geospatial data in several formats including shapefile and GeoTiff."
+msgstr "GeoNode允许注册用户轻松实现上传的地理空间数据以多种格式，包括shape文件和支持GeoTiff。"
 
 #: geonode/contrib/geosites/templates/master_index.html:47
 msgid "See users"
 msgstr "查看用户"
 
-#: geonode/contrib/geosites/views.py:126 geonode/geoserver/views.py:473
-#: geonode/geoserver/views.py:528
+#: geonode/contrib/geosites/views.py:126 geonode/geoserver/views.py:473 geonode/geoserver/views.py:528
 msgid "Bad HTTP Authorization Credentials."
 msgstr "HTTP授权证书错误。"
 
@@ -879,59 +735,44 @@ msgstr "外部资源"
 msgid "Rate this document"
 msgstr "给此文件打分"
 
-#: geonode/documents/templates/documents/document_detail.html:77
-#: geonode/layers/templates/layers/layer_detail.html:235
-#: geonode/maps/templates/maps/map_detail.html:73
+#: geonode/documents/templates/documents/document_detail.html:77 geonode/layers/templates/layers/layer_detail.html:235 geonode/maps/templates/maps/map_detail.html:73
 msgid "Average Rating"
 msgstr "平均分数"
 
-#: geonode/documents/templates/documents/document_detail.html:97
-#: geonode/layers/templates/layers/layer_detail.html:316
-#: geonode/maps/templates/maps/map_detail.html:93
+#: geonode/documents/templates/documents/document_detail.html:97 geonode/layers/templates/layers/layer_detail.html:316 geonode/maps/templates/maps/map_detail.html:93
 msgid "Metadata Detail"
 msgstr "元数据细节"
 
-#: geonode/documents/templates/documents/document_detail.html:105
-#: geonode/documents/templates/documents/document_detail.html:107
-#: geonode/documents/templates/documents/document_detail.html:109
+#: geonode/documents/templates/documents/document_detail.html:105 geonode/documents/templates/documents/document_detail.html:107 geonode/documents/templates/documents/document_detail.html:109
 msgid "Download Document"
 msgstr "下载文档"
 
-#: geonode/documents/templates/documents/document_detail.html:113
-#: geonode/layers/templates/layers/layer_detail.html:255
+#: geonode/documents/templates/documents/document_detail.html:113 geonode/layers/templates/layers/layer_detail.html:255
 msgid "Request Download"
 msgstr "请求下载"
 
-#: geonode/documents/templates/documents/document_detail.html:119
-#: geonode/documents/templates/documents/document_detail.html:126
+#: geonode/documents/templates/documents/document_detail.html:119 geonode/documents/templates/documents/document_detail.html:126
 msgid "Edit Document"
 msgstr "编辑文件"
 
-#: geonode/documents/templates/documents/document_detail.html:134
-#: geonode/documents/templates/documents/document_metadata.html:23
-#: geonode/layers/templates/layers/layer_detail.html:336
-#: geonode/layers/templates/layers/layer_metadata.html:20
-#: geonode/maps/templates/maps/map_detail.html:132
-#: geonode/maps/templates/maps/map_metadata.html:21
-#: geonode/templates/metadata_detail.html:32
+#: geonode/documents/templates/documents/document_detail.html:134 geonode/documents/templates/documents/document_metadata.html:23 geonode/layers/templates/layers/layer_detail.html:336 geonode/layers/templates/layers/layer_metadata.html:20 geonode/maps/templates/maps/map_detail.html:132 geonode/maps/templates/maps/map_metadata.html:21 geonode/templates/metadata_detail.html:32
 msgid "Metadata"
 msgstr "元数据"
+
 msgid "Completeness"
 msgstr "完整性"
+
 msgid "Metadata Schema mandatory fields completed"
 msgstr "元数据模式强制性字段已完成"
+
 msgid "Check Schema mandatory fields"
 msgstr "检查模式强制性字段"
 
-#: geonode/documents/templates/documents/document_detail.html:135
-#: geonode/layers/templates/layers/layer_detail.html:337
-#: geonode/maps/templates/maps/map_detail.html:133
+#: geonode/documents/templates/documents/document_detail.html:135 geonode/layers/templates/layers/layer_detail.html:337 geonode/maps/templates/maps/map_detail.html:133
 msgid "Wizard"
 msgstr "向导"
 
-#: geonode/documents/templates/documents/document_detail.html:136
-#: geonode/layers/templates/layers/layer_detail.html:338
-#: geonode/maps/templates/maps/map_detail.html:134
+#: geonode/documents/templates/documents/document_detail.html:136 geonode/layers/templates/layers/layer_detail.html:338 geonode/maps/templates/maps/map_detail.html:134
 msgid "Advanced Edit"
 msgstr "高级编辑"
 
@@ -939,42 +780,26 @@ msgstr "高级编辑"
 msgid "Gazetteer"
 msgstr "地名索引"
 
-#: geonode/documents/templates/documents/document_detail.html:142
-#: geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:9
+#: geonode/documents/templates/documents/document_detail.html:142 geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:9
 msgid "Document"
 msgstr "文件"
+
 msgid "Document Type"
 msgstr "文件类型"
 
-#: geonode/documents/templates/documents/document_detail.html:144
-#: geonode/layers/templates/layers/layer_detail.html:366
+#: geonode/documents/templates/documents/document_detail.html:144 geonode/layers/templates/layers/layer_detail.html:366
 msgid "Replace"
 msgstr "代替"
 
-#: geonode/documents/templates/documents/document_detail.html:147
-#: geonode/groups/templates/groups/group_members.html:33
-#: geonode/groups/templates/groups/group_members.html:59
-#: geonode/groups/templates/groups/group_members.html:86
-#: geonode/layers/templates/layers/layer_detail.html:372
-#: geonode/maps/templates/maps/map_detail.html:149
+#: geonode/documents/templates/documents/document_detail.html:147 geonode/groups/templates/groups/group_members.html:33 geonode/groups/templates/groups/group_members.html:59 geonode/groups/templates/groups/group_members.html:86 geonode/layers/templates/layers/layer_detail.html:372 geonode/maps/templates/maps/map_detail.html:149
 msgid "Remove"
 msgstr "删除"
 
-#: geonode/documents/templates/documents/document_detail.html:154
-#: geonode/documents/templates/documents/document_detail.html:190
-#: geonode/layers/templates/layers/layer_detail.html:304
-#: geonode/layers/templates/layers/layer_detail.html:379
-#: geonode/layers/templates/layers/layer_detail.html:425
-#: geonode/maps/templates/maps/map_detail.html:111
-#: geonode/maps/templates/maps/map_detail.html:155
-#: geonode/templates/_bulk_permissions_form.html:19
+#: geonode/documents/templates/documents/document_detail.html:154 geonode/documents/templates/documents/document_detail.html:190 geonode/layers/templates/layers/layer_detail.html:304 geonode/layers/templates/layers/layer_detail.html:379 geonode/layers/templates/layers/layer_detail.html:425 geonode/maps/templates/maps/map_detail.html:111 geonode/maps/templates/maps/map_detail.html:155 geonode/templates/_bulk_permissions_form.html:19
 msgid "Close"
 msgstr "关闭"
 
-#: geonode/documents/templates/documents/document_detail.html:161
-#: geonode/documents/templates/documents/document_detail.html:168
-#: geonode/layers/templates/layers/layer_detail.html:387
-#: geonode/layers/templates/layers/layer_detail.html:395
+#: geonode/documents/templates/documents/document_detail.html:161 geonode/documents/templates/documents/document_detail.html:168 geonode/layers/templates/layers/layer_detail.html:387 geonode/layers/templates/layers/layer_detail.html:395
 msgid "Download Metadata"
 msgstr "下载元数据"
 
@@ -994,13 +819,7 @@ msgstr "当前文件使用于"
 msgid "This document is not related to any maps or layers"
 msgstr "当前文件未被任何地图或图层使用"
 
-#: geonode/documents/templates/documents/document_detail.html:213
-#: geonode/documents/templates/documents/document_upload.html:30
-#: geonode/groups/templates/groups/group_detail.html:70
-#: geonode/layers/templates/layers/layer_detail.html:502
-#: geonode/layers/templates/layers/layer_replace.html:94
-#: geonode/layers/templates/upload/layer_upload.html:114
-#: geonode/maps/templates/maps/map_detail.html:201 geonode/people/admin.py:55
+#: geonode/documents/templates/documents/document_detail.html:213 geonode/documents/templates/documents/document_upload.html:30 geonode/groups/templates/groups/group_detail.html:70 geonode/layers/templates/layers/layer_detail.html:502 geonode/layers/templates/layers/layer_replace.html:94 geonode/layers/templates/upload/layer_upload.html:114 geonode/maps/templates/maps/map_detail.html:201 geonode/people/admin.py:55
 msgid "Permissions"
 msgstr "权限"
 
@@ -1012,15 +831,11 @@ msgstr "点击下方按钮以改变此文件的使用权限"
 msgid "Change Document Permissions"
 msgstr "更改文件权限"
 
-#: geonode/documents/templates/documents/document_list.html:6
-#: geonode/documents/templates/documents/document_list.html:13
-#: geonode/documents/templates/documents/document_metadata_advanced.html:21
-#: geonode/documents/templates/documents/document_upload_base.html:11
+#: geonode/documents/templates/documents/document_list.html:6 geonode/documents/templates/documents/document_list.html:13 geonode/documents/templates/documents/document_metadata_advanced.html:21 geonode/documents/templates/documents/document_upload_base.html:11
 msgid "Explore Documents"
 msgstr "浏览文件"
 
-#: geonode/documents/templates/documents/document_list.html:12
-#: geonode/documents/templates/documents/document_upload_base.html:12
+#: geonode/documents/templates/documents/document_list.html:12 geonode/documents/templates/documents/document_upload_base.html:12
 msgid "Upload Documents"
 msgstr "上传文件"
 
@@ -1029,54 +844,28 @@ msgstr "上传文件"
 msgid "for %(document_title)s"
 msgstr "- %(document_title)s"
 
-#: geonode/documents/templates/documents/document_metadata.html:41
-#: geonode/documents/templates/documents/document_metadata_advanced.html:31
-#: geonode/layers/templates/layers/layer_metadata.html:47
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:37
-#: geonode/maps/templates/maps/map_metadata.html:45
-#: geonode/maps/templates/maps/map_metadata_advanced.html:34
+#: geonode/documents/templates/documents/document_metadata.html:41 geonode/documents/templates/documents/document_metadata_advanced.html:31 geonode/layers/templates/layers/layer_metadata.html:47 geonode/layers/templates/layers/layer_metadata_advanced.html:37 geonode/maps/templates/maps/map_metadata.html:45 geonode/maps/templates/maps/map_metadata_advanced.html:34
 msgid "Error updating metadata.  Please check the following fields: "
 msgstr "错误更新元数据。请检查以下字段："
 
-#: geonode/documents/templates/documents/document_metadata.html:77
-#: geonode/documents/templates/documents/document_metadata_advanced.html:92
-#: geonode/layers/templates/layers/layer_metadata.html:90
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:130
-#: geonode/maps/templates/maps/map_metadata.html:74
-#: geonode/maps/templates/maps/map_metadata_advanced.html:87
+#: geonode/documents/templates/documents/document_metadata.html:77 geonode/documents/templates/documents/document_metadata_advanced.html:92 geonode/layers/templates/layers/layer_metadata.html:90 geonode/layers/templates/layers/layer_metadata_advanced.html:130 geonode/maps/templates/maps/map_metadata.html:74 geonode/maps/templates/maps/map_metadata_advanced.html:87
 msgid "Metadata Provider"
 msgstr "元数据提供者"
 
-#: geonode/documents/templates/documents/document_metadata.html:83
-#: geonode/layers/templates/layers/layer_metadata.html:97
-#: geonode/maps/templates/maps/map_metadata.html:80
+#: geonode/documents/templates/documents/document_metadata.html:83 geonode/layers/templates/layers/layer_metadata.html:97 geonode/maps/templates/maps/map_metadata.html:80
 msgid "<< Back"
 msgstr "<<返回"
 
-#: geonode/documents/templates/documents/document_metadata.html:84
-#: geonode/documents/templates/documents/document_metadata_advanced.html:53
-#: geonode/documents/templates/documents/document_metadata_advanced.html:97
-#: geonode/groups/templates/groups/group_update.html:26
-#: geonode/layers/templates/layers/layer_metadata.html:98
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:68
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:137
-#: geonode/maps/templates/maps/map_metadata.html:81
-#: geonode/maps/templates/maps/map_metadata_advanced.html:49
-#: geonode/maps/templates/maps/map_metadata_advanced.html:93
+#: geonode/documents/templates/documents/document_metadata.html:84 geonode/documents/templates/documents/document_metadata_advanced.html:53 geonode/documents/templates/documents/document_metadata_advanced.html:97 geonode/groups/templates/groups/group_update.html:26 geonode/layers/templates/layers/layer_metadata.html:98 geonode/layers/templates/layers/layer_metadata_advanced.html:68 geonode/layers/templates/layers/layer_metadata_advanced.html:137
+#: geonode/maps/templates/maps/map_metadata.html:81 geonode/maps/templates/maps/map_metadata_advanced.html:49 geonode/maps/templates/maps/map_metadata_advanced.html:93
 msgid "Update"
 msgstr "更新"
 
-#: geonode/documents/templates/documents/document_metadata.html:85
-#: geonode/layers/templates/layers/layer_metadata.html:99
-#: geonode/maps/templates/maps/map_metadata.html:82
-#, fuzzy
-#| msgid "Next"
+#: geonode/documents/templates/documents/document_metadata.html:85 geonode/layers/templates/layers/layer_metadata.html:99 geonode/maps/templates/maps/map_metadata.html:82
 msgid "Next >>"
-msgstr "下一页"
+msgstr "下一页 >>"
 
-#: geonode/documents/templates/documents/document_metadata_advanced.html:22
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:17
-#: geonode/maps/templates/maps/map_metadata_advanced.html:17
+#: geonode/documents/templates/documents/document_metadata_advanced.html:22 geonode/layers/templates/layers/layer_metadata_advanced.html:17 geonode/maps/templates/maps/map_metadata_advanced.html:17
 msgid "Edit Metadata"
 msgstr "修改元数据"
 
@@ -1084,8 +873,7 @@ msgstr "修改元数据"
 msgid "Editing details for"
 msgstr "编辑细节于"
 
-#: geonode/documents/templates/documents/document_remove.html:4
-#: geonode/maps/templates/maps/map_remove.html:6
+#: geonode/documents/templates/documents/document_remove.html:4 geonode/maps/templates/maps/map_remove.html:6
 msgid "Deleting"
 msgstr "删除"
 
@@ -1097,31 +885,22 @@ msgstr "删除文档"
 #, python-format
 msgid ""
 "\n"
-"          Are you sure you want to remove <a href="
-"\"%(document.get_absolute_url)s\">%(document_title)s</a>?\n"
+"          Are you sure you want to remove <a href=\"%(document.get_absolute_url)s\">%(document_title)s</a>?\n"
 "        "
 msgstr ""
+"\n"
+"          确定要删除 <a href=\"%(document.get_absolute_url)s\">%(document_title)s</a>吗?\n"
+"        "
 
-#: geonode/documents/templates/documents/document_remove.html:20
-#: geonode/groups/templates/groups/group_remove.html:19
-#: geonode/layers/templates/layers/layer_granule_remove.html:22
-#: geonode/layers/templates/layers/layer_remove.html:22
-#: geonode/maps/templates/maps/map_remove.html:22
-#: geonode/services/templates/services/service_remove.html:17
+#: geonode/documents/templates/documents/document_remove.html:20 geonode/groups/templates/groups/group_remove.html:19 geonode/layers/templates/layers/layer_granule_remove.html:22 geonode/layers/templates/layers/layer_remove.html:22 geonode/maps/templates/maps/map_remove.html:22 geonode/services/templates/services/service_remove.html:17
 msgid "Yes, I am sure"
 msgstr "是的，我确定"
 
-#: geonode/documents/templates/documents/document_remove.html:21
-#: geonode/groups/templates/groups/group_remove.html:20
-#: geonode/layers/templates/layers/layer_granule_remove.html:23
-#: geonode/layers/templates/layers/layer_remove.html:23
-#: geonode/maps/templates/maps/map_remove.html:23
-#: geonode/services/templates/services/service_remove.html:18
+#: geonode/documents/templates/documents/document_remove.html:21 geonode/groups/templates/groups/group_remove.html:20 geonode/layers/templates/layers/layer_granule_remove.html:23 geonode/layers/templates/layers/layer_remove.html:23 geonode/maps/templates/maps/map_remove.html:23 geonode/services/templates/services/service_remove.html:18
 msgid "No, don't remove it"
 msgstr "不要删除"
 
-#: geonode/documents/templates/documents/document_replace.html:4
-#: geonode/documents/templates/documents/document_replace.html:28
+#: geonode/documents/templates/documents/document_replace.html:4 geonode/documents/templates/documents/document_replace.html:28
 msgid "Replace Document"
 msgstr "替换文件"
 
@@ -1129,11 +908,7 @@ msgstr "替换文件"
 msgid "Replace "
 msgstr "替换"
 
-#: geonode/documents/templates/documents/document_replace.html:27
-#: geonode/layers/templates/layers/layer_metadata_upload.html:81
-#: geonode/layers/templates/layers/layer_replace.html:84
-#: geonode/layers/templates/upload/layer_upload.html:107
-#: geonode/templates/search/_search_content.html:24
+#: geonode/documents/templates/documents/document_replace.html:27 geonode/layers/templates/layers/layer_metadata_upload.html:81 geonode/layers/templates/layers/layer_replace.html:84 geonode/layers/templates/upload/layer_upload.html:107 geonode/templates/search/_search_content.html:24
 msgid "Clear"
 msgstr "明确"
 
@@ -1185,23 +960,19 @@ msgstr "图层上传成功"
 msgid "A layer was uploaded"
 msgstr "一个图层已被上传"
 
-#: geonode/geoserver/__init__.py:28 geonode/layers/__init__.py:31
-#: geonode/messaging/management/__init__.py:32
+#: geonode/geoserver/__init__.py:28 geonode/layers/__init__.py:31 geonode/messaging/management/__init__.py:32
 msgid "Comment on Layer"
 msgstr "相关图层的评论"
 
-#: geonode/geoserver/__init__.py:28 geonode/layers/__init__.py:31
-#: geonode/messaging/management/__init__.py:32
+#: geonode/geoserver/__init__.py:28 geonode/layers/__init__.py:31 geonode/messaging/management/__init__.py:32
 msgid "A layer was commented on"
 msgstr "一个图层被评论于"
 
-#: geonode/geoserver/__init__.py:29 geonode/layers/__init__.py:32
-#: geonode/messaging/management/__init__.py:33
+#: geonode/geoserver/__init__.py:29 geonode/layers/__init__.py:32 geonode/messaging/management/__init__.py:33
 msgid "Rating for Layer"
 msgstr "图层评分"
 
-#: geonode/geoserver/__init__.py:29 geonode/layers/__init__.py:32
-#: geonode/messaging/management/__init__.py:33
+#: geonode/geoserver/__init__.py:29 geonode/layers/__init__.py:32 geonode/messaging/management/__init__.py:33
 msgid "A rating was given to a layer"
 msgstr "一个图层被评分"
 
@@ -1266,9 +1037,7 @@ msgid "You don't have permissions to change style for this layer"
 msgstr "您没有权限改变该图层的样式"
 
 #: geonode/groups/forms.py:36
-msgid ""
-"a short version of the name consisting only of letters, numbers, underscores "
-"and hyphens."
+msgid "a short version of the name consisting only of letters, numbers, underscores and hyphens."
 msgstr "短版只包含字母，数字，下划线和连字符的名称。"
 
 #: geonode/groups/forms.py:44
@@ -1308,38 +1077,22 @@ msgid "Private"
 msgstr "私人"
 
 #: geonode/groups/models.py:69
-msgid ""
-"Public: Any registered user can view and join a public group.<br>Public "
-"(invite-only):Any registered user can view the group.  Only invited users "
-"can join.<br>Private: Registered users cannot see any details about the "
-"group, including membership.  Only invited users can join."
-msgstr ""
-"公开：任何注册用户都可以查看并加入公开群体。<br>公开（只邀请）：任何注册用户"
-"可以查看该群体，但只有被邀请的用户可以加入。 <br>私有：注册用户无法查看私有群体的详细信息"
-"，只有被邀请的用户可以加入。"
+msgid "Public: Any registered user can view and join a public group.<br>Public (invite-only):Any registered user can view the group.  Only invited users can join.<br>Private: Registered users cannot see any details about the group, including membership.  Only invited users can join."
+msgstr "公开：任何注册用户都可以查看并加入公开群体。<br>公开（只邀请）：任何注册用户可以查看该群体，但只有被邀请的用户可以加入。 <br>私有：注册用户无法查看私有群体的详细信息，只有被邀请的用户可以加入。"
 
 #: geonode/groups/models.py:74
-msgid ""
-"Email used to contact one or all group members, such as a mailing list, "
-"shared email, or exchange group."
+msgid "Email used to contact one or all group members, such as a mailing list, shared email, or exchange group."
 msgstr "电子邮件用于联系一个或所有组成员，如邮件列表，共享电子邮件或交流群。"
 
 #: geonode/groups/models.py:80
 msgid "Logo"
 msgstr "标志"
 
-#: geonode/groups/models.py:81
-#: geonode/layers/templates/layers/layer_detail.html:165
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:109
-#: geonode/layers/templates/layouts/panels.html:508
-#: geonode/people/templates/people/profile_detail.html:98
-#: geonode/services/forms.py:47
-#: geonode/services/templates/services/layers_register.html:28
+#: geonode/groups/models.py:81 geonode/layers/templates/layers/layer_detail.html:165 geonode/layers/templates/layers/layer_metadata_advanced.html:109 geonode/layers/templates/layouts/panels.html:508 geonode/people/templates/people/profile_detail.html:98 geonode/services/forms.py:47 geonode/services/templates/services/layers_register.html:28
 msgid "Description"
 msgstr "描述"
 
-#: geonode/groups/models.py:83
-#: geonode/people/templates/people/profile_detail.html:65
+#: geonode/groups/models.py:83 geonode/people/templates/people/profile_detail.html:65
 msgid "Email"
 msgstr "邮件"
 
@@ -1351,10 +1104,7 @@ msgstr "用空格或者逗号隔开的关键词"
 msgid "Access"
 msgstr "通道"
 
-#: geonode/groups/models.py:233 geonode/groups/models.py:252
-#: geonode/groups/templates/groups/group_members.html:28
-#: geonode/groups/templates/groups/group_members.html:54
-#: geonode/groups/templates/groups/group_members.html:81
+#: geonode/groups/models.py:233 geonode/groups/models.py:252 geonode/groups/templates/groups/group_members.html:28 geonode/groups/templates/groups/group_members.html:54 geonode/groups/templates/groups/group_members.html:81
 msgid "Manager"
 msgstr "管理员"
 
@@ -1374,57 +1124,32 @@ msgstr "接受"
 msgid "Declined"
 msgstr "拒绝"
 
-#: geonode/groups/templates/groups/activity.html:7
-#: geonode/groups/templates/groups/activity.html:8
-#: geonode/groups/templates/groups/activity.html:19
-#: geonode/templates/actstream/actor.html:19
+#: geonode/groups/templates/groups/activity.html:7 geonode/groups/templates/groups/activity.html:8 geonode/groups/templates/groups/activity.html:19 geonode/templates/actstream/actor.html:19
 msgid "Activity Feed for"
 msgstr "活动提要 - "
 
-#: geonode/groups/templates/groups/activity.html:25
-#: geonode/groups/templates/groups/group_members.html:13
-#: geonode/social/templates/social/activity_list.html:20
-#: geonode/templates/user_messages/inbox.html:16
+#: geonode/groups/templates/groups/activity.html:25 geonode/groups/templates/groups/group_members.html:13 geonode/social/templates/social/activity_list.html:20 geonode/templates/user_messages/inbox.html:16
 msgid "All"
 msgstr "全部"
 
-#: geonode/groups/templates/groups/activity.html:26
-#: geonode/people/templates/people/_profile_filters.html:5
-#: geonode/services/templates/services/service_detail.html:64
-#: geonode/social/templates/social/activity_list.html:21
-#: geonode/templates/500.html:55 geonode/templates/base.html:63
-#: geonode/templates/base.html.py:193
+#: geonode/groups/templates/groups/activity.html:26 geonode/people/templates/people/_profile_filters.html:5 geonode/services/templates/services/service_detail.html:64 geonode/social/templates/social/activity_list.html:21 geonode/templates/500.html:55 geonode/templates/base.html:63 geonode/templates/base.html.py:193
 msgid "Layers"
 msgstr "图层"
 
-#: geonode/groups/templates/groups/activity.html:27
-#: geonode/people/templates/people/_profile_filters.html:6
-#: geonode/social/templates/social/activity_list.html:22
-#: geonode/templates/500.html:58 geonode/templates/base.html:76
-#: geonode/templates/base.html.py:82
+#: geonode/groups/templates/groups/activity.html:27 geonode/people/templates/people/_profile_filters.html:6 geonode/social/templates/social/activity_list.html:22 geonode/templates/500.html:58 geonode/templates/base.html:76 geonode/templates/base.html.py:82
 msgid "Maps"
 msgstr "地图"
 
-#: geonode/groups/templates/groups/activity.html:28
-#: geonode/social/templates/social/activity_list.html:23
-#: geonode/templates/_actions.html:17 geonode/templates/_comments.html:12
+#: geonode/groups/templates/groups/activity.html:28 geonode/social/templates/social/activity_list.html:23 geonode/templates/_actions.html:17 geonode/templates/_comments.html:12
 msgid "Comments"
 msgstr "评论"
 
-#: geonode/groups/templates/groups/activity.html:36
-#: geonode/groups/templates/groups/activity.html:45
-#: geonode/groups/templates/groups/activity.html:54
-#: geonode/groups/templates/groups/activity.html:63
-#: geonode/social/templates/social/activity_list.html:31
-#: geonode/social/templates/social/activity_list.html:40
-#: geonode/social/templates/social/activity_list.html:49
-#: geonode/social/templates/social/activity_list.html:58
+#: geonode/groups/templates/groups/activity.html:36 geonode/groups/templates/groups/activity.html:45 geonode/groups/templates/groups/activity.html:54 geonode/groups/templates/groups/activity.html:63 geonode/social/templates/social/activity_list.html:31 geonode/social/templates/social/activity_list.html:40 geonode/social/templates/social/activity_list.html:49 geonode/social/templates/social/activity_list.html:58
 #: geonode/templates/actstream/actor.html:28
 msgid "No actions yet"
 msgstr "尚无活动信息"
 
-#: geonode/groups/templates/groups/category_list.html:5
-#: geonode/groups/templates/groups/category_list.html:14
+#: geonode/groups/templates/groups/category_list.html:5 geonode/groups/templates/groups/category_list.html:14
 msgid "Explore Group Categories"
 msgstr "浏览群体类别"
 
@@ -1432,19 +1157,15 @@ msgstr "浏览群体类别"
 msgid "Create a New Group Category"
 msgstr "创建群体类别"
 
-#: geonode/groups/templates/groups/group_base.html:13
-#: geonode/groups/templates/groups/group_list.html:5
-#: geonode/groups/templates/groups/group_list.html:14
+#: geonode/groups/templates/groups/group_base.html:13 geonode/groups/templates/groups/group_list.html:5 geonode/groups/templates/groups/group_list.html:14
 msgid "Explore Groups"
 msgstr "浏览群体类别"
 
-#: geonode/groups/templates/groups/group_base.html:14
-#: geonode/groups/templates/groups/group_create.html:11
+#: geonode/groups/templates/groups/group_base.html:14 geonode/groups/templates/groups/group_create.html:11
 msgid "Create a Group"
 msgstr "创建群体"
 
-#: geonode/groups/templates/groups/group_base.html:16
-#: geonode/groups/templates/groups/group_update.html:11
+#: geonode/groups/templates/groups/group_base.html:16 geonode/groups/templates/groups/group_update.html:11
 msgid "Update Group"
 msgstr "更新群体"
 
@@ -1452,14 +1173,11 @@ msgstr "更新群体"
 msgid "Remove Group"
 msgstr "删除群体"
 
-#: geonode/groups/templates/groups/group_create.html:5
-#: geonode/groups/templates/groups/group_update.html:5
-#: geonode/templates/base.html:98 geonode/templates/base.html.py:223
+#: geonode/groups/templates/groups/group_create.html:5 geonode/groups/templates/groups/group_update.html:5 geonode/templates/base.html:98 geonode/templates/base.html.py:223
 msgid "Create Group"
 msgstr "创建群体"
 
-#: geonode/groups/templates/groups/group_create.html:26
-#: geonode/services/templates/services/service_register.html:19
+#: geonode/groups/templates/groups/group_create.html:26 geonode/services/templates/services/service_register.html:19
 msgid "Create"
 msgstr "创建地图"
 
@@ -1505,15 +1223,11 @@ msgstr "任何人都可以查看该群体的成员，但只有接受邀请才能
 msgid "Membership is by invitation only."
 msgstr "只有接受邀请才能加入群体。"
 
-#: geonode/groups/templates/groups/group_detail.html:91
-#: geonode/groups/templates/groups/group_members.html:14
+#: geonode/groups/templates/groups/group_detail.html:91 geonode/groups/templates/groups/group_members.html:14
 msgid "Managers"
 msgstr "管理员"
 
-#: geonode/groups/templates/groups/group_detail.html:103
-#: geonode/groups/templates/groups/group_invite_response.html:7
-#: geonode/groups/templates/groups/group_members.html:9
-#: geonode/groups/templates/groups/group_members.html:15
+#: geonode/groups/templates/groups/group_detail.html:103 geonode/groups/templates/groups/group_invite_response.html:7 geonode/groups/templates/groups/group_members.html:9 geonode/groups/templates/groups/group_members.html:15
 msgid "Members"
 msgstr "成员"
 
@@ -1541,9 +1255,7 @@ msgstr "编辑成员 - "
 msgid "Current Members"
 msgstr "当前成员"
 
-#: geonode/groups/templates/groups/group_members.html:37
-#: geonode/groups/templates/groups/group_members.html:63
-#: geonode/groups/templates/groups/group_members.html:90
+#: geonode/groups/templates/groups/group_members.html:37 geonode/groups/templates/groups/group_members.html:63 geonode/groups/templates/groups/group_members.html:90
 msgid "Role"
 msgstr "角色"
 
@@ -1582,14 +1294,10 @@ msgid "Remove selected maps/data"
 msgstr "删除所选地图/数据"
 
 #: geonode/groups/templates/groups/groupcategory_detail.html:24
-#, fuzzy
-#| msgid "Edit Group Details"
 msgid "Edit Group Category Details"
-msgstr "编辑群体详细"
+msgstr "编辑群体类别详情"
 
-#: geonode/groups/templates/groups/groupcategory_detail.html:31
-#: geonode/templates/500.html:69 geonode/templates/base.html:89
-#: geonode/templates/base.html.py:216
+#: geonode/groups/templates/groups/groupcategory_detail.html:31 geonode/templates/500.html:69 geonode/templates/base.html:89 geonode/templates/base.html.py:216
 msgid "Groups"
 msgstr "群体"
 
@@ -1601,16 +1309,11 @@ msgstr "创建群体类别"
 msgid "Create a Group Category"
 msgstr "创建一个群体类别"
 
-#: geonode/groups/templates/groups/groupcategory_update_form.html:4
-#: geonode/groups/templates/groups/groupcategory_update_form.html:6
+#: geonode/groups/templates/groups/groupcategory_update_form.html:4 geonode/groups/templates/groups/groupcategory_update_form.html:6
 msgid "Edit Group Category"
 msgstr "编辑群体类别"
 
-#: geonode/groups/templates/groups/groupcategory_update_form.html:8
-#: geonode/layers/templates/layouts/panels.html:270
-#: geonode/maps/templates/layouts/map_panels.html:68
-#: geonode/services/templates/services/service_edit.html:21
-#: geonode/templates/announcements/announcement_form.html:27
+#: geonode/groups/templates/groups/groupcategory_update_form.html:8 geonode/layers/templates/layouts/panels.html:270 geonode/maps/templates/layouts/map_panels.html:68 geonode/services/templates/services/service_edit.html:21 geonode/templates/announcements/announcement_form.html:27
 msgid "Save"
 msgstr "保存"
 
@@ -1678,11 +1381,9 @@ msgstr "仓库"
 msgid "Storetype"
 msgstr "仓库类型"
 
-#: geonode/layers/models.py:127
-#msgid "Type"
-#msgstr "类型"
-
-#: geonode/layers/models.py:128
+# msgid "Type"
+# msgstr "类型"
+#: geonode/layers/models.py:127 geonode/layers/models.py:128
 msgid "Typename"
 msgstr "类型名"
 
@@ -1763,9 +1464,7 @@ msgid "display order"
 msgstr "显示顺序"
 
 #: geonode/layers/models.py:366
-msgid ""
-"specifies the order in which attribute should be displayed in identify "
-"results"
+msgid "specifies the order in which attribute should be displayed in identify results"
 msgstr "标明属性在identity中显示的顺序"
 
 #: geonode/layers/models.py:371
@@ -1840,8 +1539,7 @@ msgstr "上一次统计更新的时间"
 msgid "Home"
 msgstr "主页"
 
-#: geonode/layers/templates/layers/layer_change_poc.html:5
-#: geonode/layers/templates/layers/layer_change_poc.html:7
+#: geonode/layers/templates/layers/layer_change_poc.html:5 geonode/layers/templates/layers/layer_change_poc.html:7
 msgid "Change point of contact"
 msgstr "改变联络地址"
 
@@ -1849,8 +1547,7 @@ msgstr "改变联络地址"
 msgid "Assign a new point of contact to the layers below:"
 msgstr "给以下图层添加一个新的联系点"
 
-#: geonode/layers/templates/layers/layer_change_poc.html:17
-#: geonode/people/templates/people/forgot_username_form.html:15
+#: geonode/layers/templates/layers/layer_change_poc.html:17 geonode/people/templates/people/forgot_username_form.html:15
 msgid "Submit"
 msgstr "提交"
 
@@ -1906,37 +1603,47 @@ msgstr "高程"
 msgid "Attribute Name"
 msgstr "属性名称"
 
-#: geonode/layers/templates/layers/layer_detail.html:164
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:108
-#: geonode/layers/templates/layouts/panels.html:507
+#: geonode/layers/templates/layers/layer_detail.html:164 geonode/layers/templates/layers/layer_metadata_advanced.html:108 geonode/layers/templates/layouts/panels.html:507
 msgid "Label"
 msgstr "标签"
 
 #: geonode/layers/templates/layouts/panels.html:507
 msgid "Done!"
 msgstr "完成！"
+
 msgid "Mandatory"
 msgstr "强制"
+
 msgid "Optional"
 msgstr "可选"
+
 msgid "Basic Metadata"
 msgstr "基础元数据"
+
 msgid "Location and Licenses"
 msgstr "位置和许可"
+
 msgid "Optional Metadata"
 msgstr "可选元数据"
+
 msgid "Dataset Attributes"
 msgstr "数据集属性"
+
 msgid "Group"
 msgstr "群体"
+
 msgid "Owner and Permissions"
 msgstr "所有者和权限"
+
 msgid "Responsible Parties"
 msgstr "责任方"
+
 msgid "Other, Optional, Metadata"
 msgstr "其他的，可选择的元数据"
+
 msgid "Publishing"
 msgstr "发布属性"
+
 msgid "Other Settings"
 msgstr "其他设置"
 
@@ -1960,31 +1667,23 @@ msgstr "方差"
 msgid "Rate this layer"
 msgstr "为该图层评分"
 
-#: geonode/layers/templates/layers/layer_detail.html:252
-#: geonode/layers/templates/layers/layer_detail.html:265
+#: geonode/layers/templates/layers/layer_detail.html:252 geonode/layers/templates/layers/layer_detail.html:265
 msgid "Download Layer"
 msgstr "下载图层"
 
-#: geonode/layers/templates/layers/layer_detail.html:322
-#: geonode/layers/templates/layers/layer_detail.html:329
+#: geonode/layers/templates/layers/layer_detail.html:322 geonode/layers/templates/layers/layer_detail.html:329
 msgid "Edit Layer"
 msgstr "编辑图层"
 
 #: geonode/layers/templates/layers/layer_detail.html:339
-#, fuzzy
-#| msgid "Download Metadata"
 msgid "Upload Metadata"
-msgstr "下载元数据"
+msgstr "上传元数据"
 
-#: geonode/layers/templates/layers/layer_detail.html:346
-#: geonode/layers/templates/layers/layer_detail.html:479
+#: geonode/layers/templates/layers/layer_detail.html:346 geonode/layers/templates/layers/layer_detail.html:479
 msgid "Styles"
 msgstr "样式"
 
-#: geonode/layers/templates/layers/layer_detail.html:348
-#: geonode/layers/templates/layouts/panels.html:276
-#: geonode/maps/templates/layouts/map_panels.html:74
-#: geonode/maps/templates/maps/map_detail.html:148
+#: geonode/layers/templates/layers/layer_detail.html:348 geonode/layers/templates/layouts/panels.html:276 geonode/maps/templates/layouts/map_panels.html:74 geonode/maps/templates/maps/map_detail.html:148
 msgid "Edit"
 msgstr "编辑"
 
@@ -1992,20 +1691,15 @@ msgstr "编辑"
 msgid "Upload"
 msgstr "上传"
 
-#: geonode/layers/templates/layers/layer_detail.html:350
-#: geonode/services/templates/services/service_detail.html:110
+#: geonode/layers/templates/layers/layer_detail.html:350 geonode/services/templates/services/service_detail.html:110
 msgid "Manage"
 msgstr "管理"
 
-#: geonode/layers/templates/layers/layer_detail.html:357
-#: geonode/layers/templates/layouts/panels.html:261
-#: geonode/maps/templates/layouts/map_panels.html:59
-#: geonode/maps/templates/maps/map_detail.html:140
+#: geonode/layers/templates/layers/layer_detail.html:357 geonode/layers/templates/layouts/panels.html:261 geonode/maps/templates/layouts/map_panels.html:59 geonode/maps/templates/maps/map_detail.html:140
 msgid "Thumbnail"
 msgstr "缩略图"
 
-#: geonode/layers/templates/layers/layer_detail.html:358
-#: geonode/maps/templates/maps/map_detail.html:141
+#: geonode/layers/templates/layers/layer_detail.html:358 geonode/maps/templates/maps/map_detail.html:141
 msgid "Set"
 msgstr "设置"
 
@@ -2013,8 +1707,7 @@ msgstr "设置"
 msgid "Edit data"
 msgstr "编辑数据"
 
-#: geonode/layers/templates/layers/layer_detail.html:433
-#: geonode/services/views.py:1326
+#: geonode/layers/templates/layers/layer_detail.html:433 geonode/services/views.py:1326
 msgid "Legend"
 msgstr "图例"
 
@@ -2047,9 +1740,7 @@ msgid "List of documents related to this layer:"
 msgstr "列出与此图层相关的文件"
 
 #: geonode/layers/templates/layers/layer_detail.html:480
-msgid ""
-"The following styles are associated with this layer. Choose a style to view "
-"it in the preview map."
+msgid "The following styles are associated with this layer. Choose a style to view it in the preview map."
 msgstr "以下样式与此图层关联。选择一种样式以在"
 
 #: geonode/layers/templates/layers/layer_detail.html:493
@@ -2072,14 +1763,7 @@ msgstr "外部服务层"
 msgid "Source"
 msgstr "源"
 
-#: geonode/layers/templates/layers/layer_granule_remove.html:8
-#: geonode/layers/templates/layers/layer_list.html:6
-#: geonode/layers/templates/layers/layer_list.html:13
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:16
-#: geonode/layers/templates/layers/layer_metadata_upload.html:17
-#: geonode/layers/templates/layers/layer_remove.html:8
-#: geonode/layers/templates/upload/layer_upload.html:17
-#: geonode/layers/templates/upload/layer_upload_base.html:11
+#: geonode/layers/templates/layers/layer_granule_remove.html:8 geonode/layers/templates/layers/layer_list.html:6 geonode/layers/templates/layers/layer_list.html:13 geonode/layers/templates/layers/layer_metadata_advanced.html:16 geonode/layers/templates/layers/layer_metadata_upload.html:17 geonode/layers/templates/layers/layer_remove.html:8 geonode/layers/templates/upload/layer_upload.html:17 geonode/layers/templates/upload/layer_upload_base.html:11
 #: geonode/layers/templates/upload/layer_upload_metadata_base.html:11
 msgid "Explore Layers"
 msgstr "浏览图层"
@@ -2087,12 +1771,16 @@ msgstr "浏览图层"
 #: geonode/layers/templates/upload/layer_upload_metadata_base.html
 msgid "Processing..."
 msgstr "处理中…"
+
 msgid "Updating Metadata..."
 msgstr "更新元数据中…"
+
 msgid "ERROR"
 msgstr "错误"
+
 msgid "Topic Category is mandatory and cannot be empty!"
 msgstr "主题类别是强制性的，不能是空的！"
+
 msgid "Group is mandatory and cannot be empty!"
 msgstr "群体是强制性的，不能是空的！"
 
@@ -2104,29 +1792,22 @@ msgstr "移除镶嵌颗粒"
 #, python-format
 msgid ""
 "\n"
-"          Are you sure you want to remove Granule %(granule_id)s of the "
-"Mosaic <a href=\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
+"          Are you sure you want to remove Granule %(granule_id)s of the Mosaic <a href=\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
 "        "
 msgstr ""
 "\n"
-"          您确定您想要移除镶嵌颗粒 %(granule_id)s "
-"<a href=\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
+"          您确定您想要移除镶嵌颗粒 %(granule_id)s <a href=\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
 "        "
 
-#: geonode/layers/templates/layers/layer_granule_remove.html:30
-#: geonode/layers/templates/layers/layer_remove.html:30
+#: geonode/layers/templates/layers/layer_granule_remove.html:30 geonode/layers/templates/layers/layer_remove.html:30
 msgid "This action affects the following maps:"
 msgstr "此操作会影响以下地图："
 
-#: geonode/layers/templates/layers/layer_granule_remove.html:34
-#: geonode/layers/templates/layers/layer_remove.html:34
+#: geonode/layers/templates/layers/layer_granule_remove.html:34 geonode/layers/templates/layers/layer_remove.html:34
 msgid "No maps are using this layer"
 msgstr "没有地图使用此图层。"
 
-#: geonode/layers/templates/layers/layer_list.html:12
-#: geonode/layers/templates/upload/layer_upload.html:18
-#: geonode/layers/templates/upload/layer_upload_base.html:12
-#: geonode/templates/500.html:216
+#: geonode/layers/templates/layers/layer_list.html:12 geonode/layers/templates/upload/layer_upload.html:18 geonode/layers/templates/upload/layer_upload_base.html:12 geonode/templates/500.html:216
 msgid "Upload Layers"
 msgstr "上传图层"
 
@@ -2135,34 +1816,22 @@ msgstr "上传图层"
 msgid "for %(layer_title)s"
 msgstr "给%(layer_title)s"
 
-#: geonode/layers/templates/layers/layer_metadata.html:38
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:28
+#: geonode/layers/templates/layers/layer_metadata.html:38 geonode/layers/templates/layers/layer_metadata_advanced.html:28
 msgid ""
-"Note: this layer's orginal metadata was populated and preserved by importing "
-"a metadata XML file.\n"
+"Note: this layer's orginal metadata was populated and preserved by importing a metadata XML file.\n"
 "          This metadata cannot be edited."
 msgstr ""
 "注意：该图层的原始元数据已通过一个元数据XML文件导入的方式被保存。\n"
 "          该元数据不能被编辑"
 
-#: geonode/layers/templates/layers/layer_metadata.html:41
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:31
+#: geonode/layers/templates/layers/layer_metadata.html:41 geonode/layers/templates/layers/layer_metadata_advanced.html:31
 msgid ""
-"Note: this layer's orginal metadata was populated by importing a metadata "
-"XML file.\n"
-"          GeoNode's metadata import supports a subset of ISO, FGDC, and "
-"Dublin Core metadata elements.\n"
+"Note: this layer's orginal metadata was populated by importing a metadata XML file.\n"
+"          GeoNode's metadata import supports a subset of ISO, FGDC, and Dublin Core metadata elements.\n"
 "          Some of your original metadata may have been lost."
-msgstr ""
-"注：此图的原单的元数据被填充通过导入元数据的XML文件。"
-"         GeoNode的元数据导入支持ISO，FGDC和都柏林核心元数据元素的一个子集。"
-"         一些您原来的元数据可能已经丢失。"
+msgstr "注：此图的原单的元数据被填充通过导入元数据的XML文件。         GeoNode的元数据导入支持ISO，FGDC和都柏林核心元数据元素的一个子集。         一些您原来的元数据可能已经丢失。"
 
-
-#: geonode/layers/templates/layers/layer_metadata.html:63
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:53
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:103
-#: geonode/templates/_actions.html:5
+#: geonode/layers/templates/layers/layer_metadata.html:63 geonode/layers/templates/layers/layer_metadata_advanced.html:53 geonode/layers/templates/layers/layer_metadata_advanced.html:103 geonode/templates/_actions.html:5
 msgid "Attributes"
 msgstr "属性"
 
@@ -2176,21 +1845,18 @@ msgstr ""
 "\n"
 "细节修改%(layer_title)s"
 
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:107
-#: geonode/layers/templates/layouts/panels.html:506
+#: geonode/layers/templates/layers/layer_metadata_advanced.html:107 geonode/layers/templates/layouts/panels.html:506
 msgid "Attribute"
 msgstr "属性"
 
-#: geonode/layers/templates/layers/layer_metadata_advanced.html:110
-#: geonode/layers/templates/layouts/panels.html:509
+#: geonode/layers/templates/layers/layer_metadata_advanced.html:110 geonode/layers/templates/layouts/panels.html:509
 msgid "Display Order"
 msgstr "显示顺序"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:5
-#: geonode/layers/templates/layers/layer_metadata_upload.html:18
-#: geonode/layers/templates/upload/layer_upload_metadata_base.html:12
+#: geonode/layers/templates/layers/layer_metadata_upload.html:5 geonode/layers/templates/layers/layer_metadata_upload.html:18 geonode/layers/templates/upload/layer_upload_metadata_base.html:12
 msgid "Upload Layer Metadata"
 msgstr "上传图层元数据"
+
 msgid "Choose Files"
 msgstr "选择文件"
 
@@ -2198,85 +1864,52 @@ msgstr "选择文件"
 msgid "Upload Layer SLD"
 msgstr "上传图层图样"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:24
-#: geonode/layers/templates/layers/layer_replace.html:23
-#: geonode/layers/templates/upload/layer_upload.html:40
+#: geonode/layers/templates/layers/layer_metadata_upload.html:24 geonode/layers/templates/layers/layer_replace.html:23 geonode/layers/templates/upload/layer_upload.html:40
 msgid "Incomplete Uploads"
 msgstr "不完整的上传"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:25
-#: geonode/layers/templates/layers/layer_replace.html:24
-#: geonode/layers/templates/upload/layer_upload.html:41
+#: geonode/layers/templates/layers/layer_metadata_upload.html:25 geonode/layers/templates/layers/layer_replace.html:24 geonode/layers/templates/upload/layer_upload.html:41
 msgid "You have the following incomplete uploads"
 msgstr "您有以下不完整的上传"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:28
-#: geonode/layers/templates/layers/layer_replace.html:27
-#: geonode/layers/templates/upload/layer_upload.html:44
+#: geonode/layers/templates/layers/layer_metadata_upload.html:28 geonode/layers/templates/layers/layer_replace.html:27 geonode/layers/templates/upload/layer_upload.html:44
 msgid "last updated on"
 msgstr "最新更新"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:30
-#: geonode/layers/templates/layers/layer_replace.html:29
-#: geonode/layers/templates/upload/layer_upload.html:46
+#: geonode/layers/templates/layers/layer_metadata_upload.html:30 geonode/layers/templates/layers/layer_replace.html:29 geonode/layers/templates/upload/layer_upload.html:46
 msgid "Resume"
 msgstr "简历"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:31
-#: geonode/layers/templates/layers/layer_metadata_upload.html:38
-#: geonode/layers/templates/layers/layer_replace.html:30
-#: geonode/layers/templates/layers/layer_replace.html:38
-#: geonode/layers/templates/upload/layer_upload.html:47
-#: geonode/layers/templates/upload/layer_upload.html:54
-#: geonode/templates/announcements/announcement_confirm_delete.html:22
-#: geonode/templates/announcements/announcement_form.html:25
-#: geonode/templates/user_messages/_message_snippet.html:40
+#: geonode/layers/templates/layers/layer_metadata_upload.html:31 geonode/layers/templates/layers/layer_metadata_upload.html:38 geonode/layers/templates/layers/layer_replace.html:30 geonode/layers/templates/layers/layer_replace.html:38 geonode/layers/templates/upload/layer_upload.html:47 geonode/layers/templates/upload/layer_upload.html:54 geonode/templates/announcements/announcement_confirm_delete.html:22
+#: geonode/templates/announcements/announcement_form.html:25 geonode/templates/user_messages/_message_snippet.html:40
 msgid "Delete"
 msgstr "删除"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:37
-#: geonode/layers/templates/layers/layer_replace.html:36
-#: geonode/layers/templates/upload/layer_upload.html:53
+#: geonode/layers/templates/layers/layer_metadata_upload.html:37 geonode/layers/templates/layers/layer_replace.html:36 geonode/layers/templates/upload/layer_upload.html:53
 msgid "Are you sure you want to delete this upload?"
 msgstr "您要删除此上传吗？"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:39
-#: geonode/layers/templates/layers/layer_replace.html:39
-#: geonode/layers/templates/upload/layer_upload.html:55
-#: geonode/maps/templates/maps/map_download.html:58
-#: geonode/templates/_comments.html:66
-#: geonode/templates/_permissions_form.html:15
-#: geonode/templates/announcements/announcement_confirm_delete.html:21
-#: geonode/templates/announcements/announcement_form.html:23
+#: geonode/layers/templates/layers/layer_metadata_upload.html:39 geonode/layers/templates/layers/layer_replace.html:39 geonode/layers/templates/upload/layer_upload.html:55 geonode/maps/templates/maps/map_download.html:58 geonode/templates/_comments.html:66 geonode/templates/_permissions_form.html:15 geonode/templates/announcements/announcement_confirm_delete.html:21 geonode/templates/announcements/announcement_form.html:23
 msgid "Cancel"
 msgstr "取消"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:40
-#: geonode/layers/templates/layers/layer_replace.html:41
-#: geonode/layers/templates/upload/layer_upload.html:56
+#: geonode/layers/templates/layers/layer_metadata_upload.html:40 geonode/layers/templates/layers/layer_replace.html:41 geonode/layers/templates/upload/layer_upload.html:56
 msgid "Delete, and don't ask me again."
 msgstr "删除，不要再问我。"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:57
-#: geonode/layers/templates/layers/layer_replace.html:55
-#: geonode/layers/templates/upload/layer_upload.html:73
+#: geonode/layers/templates/layers/layer_metadata_upload.html:57 geonode/layers/templates/layers/layer_replace.html:55 geonode/layers/templates/upload/layer_upload.html:73
 msgid "Drop files here"
 msgstr "此文件拖放"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:60
-#: geonode/layers/templates/layers/layer_replace.html:58
-#: geonode/layers/templates/upload/layer_upload.html:76
+#: geonode/layers/templates/layers/layer_metadata_upload.html:60 geonode/layers/templates/layers/layer_replace.html:58 geonode/layers/templates/upload/layer_upload.html:76
 msgid " or select them one by one:"
 msgstr "或选择其中一个接一个："
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:70
-#: geonode/layers/templates/layers/layer_replace.html:66
-#: geonode/layers/templates/upload/layer_upload.html:86
+#: geonode/layers/templates/layers/layer_metadata_upload.html:70 geonode/layers/templates/layers/layer_replace.html:66 geonode/layers/templates/upload/layer_upload.html:86
 msgid "Files to be uploaded"
 msgstr "文件上传"
 
-#: geonode/layers/templates/layers/layer_metadata_upload.html:82
-#: geonode/layers/templates/upload/layer_upload.html:108
+#: geonode/layers/templates/layers/layer_metadata_upload.html:82 geonode/layers/templates/upload/layer_upload.html:108
 msgid "Upload files"
 msgstr "上传文件"
 
@@ -2288,17 +1921,14 @@ msgstr "移除图层"
 #, python-format
 msgid ""
 "\n"
-"          Are you sure you want to remove <a href="
-"\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
+"          Are you sure you want to remove <a href=\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
 "        "
 msgstr ""
 "\n"
-"          您确定您想要移除 <a href="
-"\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
+"          您确定您想要移除 <a href=\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
 "        "
 
-#: geonode/layers/templates/layers/layer_replace.html:5
-#: geonode/layers/templates/layers/layer_replace.html:85
+#: geonode/layers/templates/layers/layer_replace.html:5 geonode/layers/templates/layers/layer_replace.html:85
 msgid "Replace Layer"
 msgstr "替换图层"
 
@@ -2306,8 +1936,7 @@ msgstr "替换图层"
 msgid "Replace Layer: "
 msgstr "替换图层："
 
-#: geonode/layers/templates/layers/layer_replace.html:71
-#: geonode/layers/templates/upload/layer_upload.html:94
+#: geonode/layers/templates/layers/layer_replace.html:71 geonode/layers/templates/upload/layer_upload.html:94
 msgid "Select the charset or leave default"
 msgstr "选择的字符集或保留默认值"
 
@@ -2319,11 +1948,11 @@ msgstr "管理样式"
 #, python-format
 msgid ""
 "\n"
-"      Manage Available Styles for <a href=\"/layers/%(layer_title)s\">"
-"%(layer_title)s</a>\n"
+"      Manage Available Styles for <a href=\"/layers/%(layer_title)s\">%(layer_title)s</a>\n"
 "    "
 msgstr ""
-"\n为 <a href=\"/layers/%(layer_title)s\">%(layer_title)s</a>管理可用的样式</a>"
+"\n"
+"为 <a href=\"/layers/%(layer_title)s\">%(layer_title)s</a>管理可用的样式</a>"
 
 #: geonode/layers/templates/layers/layer_style_manage.html:23
 msgid "Layer Default Style"
@@ -2334,18 +1963,14 @@ msgid "Available styles"
 msgstr "可用的样式"
 
 #: geonode/layers/templates/layers/layer_style_manage.html:42
-msgid ""
-"Click on an available style in the upper box to assign it to this layer. "
-"Selected styles appear in the lower box."
+msgid "Click on an available style in the upper box to assign it to this layer. Selected styles appear in the lower box."
 msgstr "在右边第一个选框中选择可用的样式，选择成功的样式将出现在右边第二个选框中。"
 
 #: geonode/layers/templates/layers/layer_style_manage.html:61
 msgid "Update Available Styles"
 msgstr "更新可用样式"
 
-#: geonode/layers/templates/upload/layer_upload.html:5
-#: geonode/layers/templates/upload/layer_upload_crs.html:7
-#: geonode/layers/templates/upload/layer_upload_csv.html:7
+#: geonode/layers/templates/upload/layer_upload.html:5 geonode/layers/templates/upload/layer_upload_crs.html:7 geonode/layers/templates/upload/layer_upload_csv.html:7
 msgid "Upload Layer"
 msgstr "上传图层"
 
@@ -2360,8 +1985,7 @@ msgstr "坐标参照系"
 #: geonode/layers/templates/upload/layer_upload_crs.html:17
 msgid ""
 "\n"
-"        A coordinate reference system for this layer could not be "
-"determined.\n"
+"        A coordinate reference system for this layer could not be determined.\n"
 "        Locate or enter the appropriate ESPG code for this layer below.\n"
 "        One way to do this is do visit:\n"
 "        <a href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a>\n"
@@ -2369,13 +1993,9 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"这一层坐标参考系统无法确定。定位或输入相应的ESPG代码下面这一层。要做到这一点"
-"的方法之一是做访问： <a href=\"http://prj2epsg.org/search\" target=\"_"
-"\">prj2epsg</a> ，并输入以下内容："
+"这一层坐标参考系统无法确定。定位或输入相应的ESPG代码下面这一层。要做到这一点的方法之一是做访问： <a href=\"http://prj2epsg.org/search\" target=\"_\">prj2epsg</a> ，并输入以下内容："
 
-#: geonode/layers/templates/upload/layer_upload_crs.html:32
-#: geonode/layers/templates/upload/layer_upload_csv.html:49
-#: geonode/layers/templates/upload/layer_upload_time.html:101
+#: geonode/layers/templates/upload/layer_upload_crs.html:32 geonode/layers/templates/upload/layer_upload_csv.html:49 geonode/layers/templates/upload/layer_upload_time.html:101
 msgid "Next"
 msgstr "下一页"
 
@@ -2394,9 +2014,7 @@ msgid "Geospatial Data"
 msgstr "地理空间数据"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:12
-msgid ""
-"Please indicate which attributes contain the latitude and longitude "
-"coordinates in the CSV data."
+msgid "Please indicate which attributes contain the latitude and longitude coordinates in the CSV data."
 msgstr "请指出哪个属性包含纬度和CSV数据经度坐标。"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:14
@@ -2404,28 +2022,20 @@ msgid ""
 "With this data, GeoNode was able to guess which attributes contain the\n"
 "latitude and longitude coordinates, but please confirm that the correct\n"
 "attributes are selected below."
-msgstr ""
-"有了这些数据，GeoNode能猜出哪些属性包含经度和纬度坐标，但请确认正确的属性如下"
-"选择。"
+msgstr "有了这些数据，GeoNode能猜出哪些属性包含经度和纬度坐标，但请确认正确的属性如下选择。"
 
-#: geonode/layers/templates/upload/layer_upload_csv.html:26
-#: geonode/layers/templates/upload/layer_upload_csv.html:39
+#: geonode/layers/templates/upload/layer_upload_csv.html:26 geonode/layers/templates/upload/layer_upload_csv.html:39
 msgid "Select an attribute"
 msgstr "选择属性"
 
 #: geonode/layers/templates/upload/layer_upload_csv.html:57
 msgid ""
-"We did not detect columns that could be used for the latitude and "
-"longitude.\n"
-"Please verify that you have two columns in your csv file that can be used "
-"for\n"
+"We did not detect columns that could be used for the latitude and longitude.\n"
+"Please verify that you have two columns in your csv file that can be used for\n"
 "the latitude and longitude."
-msgstr ""
-"我们没有检测到可能被用于纬度和经度列。请确认您有您的csv文件的两列，可用于经度"
-"和纬度。"
+msgstr "我们没有检测到可能被用于纬度和经度列。请确认您有您的csv文件的两列，可用于经度和纬度。"
 
-#: geonode/layers/templates/upload/layer_upload_invalid.html:6
-#: geonode/layers/templates/upload/no_upload.html:6
+#: geonode/layers/templates/upload/layer_upload_invalid.html:6 geonode/layers/templates/upload/no_upload.html:6
 msgid "Your upload is either complete or you haven't resumed an earlier one."
 msgstr "您的上传或者是完整的，或者您还没有恢复较早之一。"
 
@@ -2457,23 +2067,19 @@ msgstr "选择时间属性"
 msgid "This data does not have a time attribute"
 msgstr "该数据不具有时间属性"
 
-#: geonode/layers/templates/upload/layer_upload_time.html:30
-#: geonode/layers/templates/upload/layer_upload_time.html:57
+#: geonode/layers/templates/upload/layer_upload_time.html:30 geonode/layers/templates/upload/layer_upload_time.html:57
 msgid "Existing Time Attribute"
 msgstr "现有的时间属性"
 
-#: geonode/layers/templates/upload/layer_upload_time.html:36
-#: geonode/layers/templates/upload/layer_upload_time.html:63
+#: geonode/layers/templates/upload/layer_upload_time.html:36 geonode/layers/templates/upload/layer_upload_time.html:63
 msgid "Convert Text Attribute"
 msgstr "文本转换属性"
 
-#: geonode/layers/templates/upload/layer_upload_time.html:38
-#: geonode/layers/templates/upload/layer_upload_time.html:65
+#: geonode/layers/templates/upload/layer_upload_time.html:38 geonode/layers/templates/upload/layer_upload_time.html:65
 msgid "Date Format"
 msgstr "日期格式"
 
-#: geonode/layers/templates/upload/layer_upload_time.html:49
-#: geonode/layers/templates/upload/layer_upload_time.html:76
+#: geonode/layers/templates/upload/layer_upload_time.html:49 geonode/layers/templates/upload/layer_upload_time.html:76
 msgid "Convert Number (As Year)"
 msgstr "转换号（年）"
 
@@ -2506,9 +2112,7 @@ msgid "Continuous Intervals"
 msgstr "连续间隔"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:92
-msgid ""
-"for data that is frequently updated, resolution describes the frequency of "
-"updates"
+msgid "for data that is frequently updated, resolution describes the frequency of updates"
 msgstr "对于经常更新的数据，分辨率描述的更新频率"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:96
@@ -2526,14 +2130,10 @@ msgstr "启用时间"
 #: geonode/layers/templates/upload/layer_upload_time.html:110
 msgid ""
 "A feature can currently support one or two time attributes. If a single\n"
-"    attribute is used, the feature is considered relevant at that single "
-"point in time. If two\n"
-"    attributes are used, the second attribute represents the end of a valid "
-"period for the\n"
+"    attribute is used, the feature is considered relevant at that single point in time. If two\n"
+"    attributes are used, the second attribute represents the end of a valid period for the\n"
 "    feature."
-msgstr ""
-"一种功能目前可以支持一个或两个时间属性。如果一个属性时，该特征被认为是有关在"
-"该时间单点。如果两个属性的使用，所述第二属性表示的为特征的有效周期的结束。"
+msgstr "一种功能目前可以支持一个或两个时间属性。如果一个属性时，该特征被认为是有关在该时间单点。如果两个属性的使用，所述第二属性表示的为特征的有效周期的结束。"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:114
 msgid "Selecting an Attribute"
@@ -2558,14 +2158,12 @@ msgstr "一些较上年"
 #: geonode/layers/templates/upload/layer_upload_time.html:122
 msgid ""
 "\n"
-"    For text attributes, one can specify a custom format or use the 'best "
-"guess' approach.\n"
+"    For text attributes, one can specify a custom format or use the 'best guess' approach.\n"
 "    The most common formatting flags are:\n"
 "    "
 msgstr ""
 "\n"
-"对于文本属性，可以指定自定义的格式，或使用“最佳猜测”的方法。最常见的格式的标"
-"志为："
+"对于文本属性，可以指定自定义的格式，或使用“最佳猜测”的方法。最常见的格式的标志为："
 
 #: geonode/layers/templates/upload/layer_upload_time.html:128
 msgid "year"
@@ -2579,8 +2177,7 @@ msgstr "月"
 msgid "day of month"
 msgstr "月日"
 
-#: geonode/layers/templates/upload/layer_upload_time.html:131
-#: geonode/layers/templates/upload/layer_upload_time.html:132
+#: geonode/layers/templates/upload/layer_upload_time.html:131 geonode/layers/templates/upload/layer_upload_time.html:132
 msgid "hour of day"
 msgstr "小时一天"
 
@@ -2597,9 +2194,7 @@ msgid "Note that single quotes represent a literal character."
 msgstr "需要注意的是单引号代表一个原义字符。"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:138
-msgid ""
-"To remove ambiguity, repeat a code to represent the maximum number of digits "
-"- for example yyyy"
+msgid "To remove ambiguity, repeat a code to represent the maximum number of digits - for example yyyy"
 msgstr "要删除歧义，重复码来表示的最大位数 - 例如YYYY"
 
 #: geonode/layers/templates/upload/layer_upload_time.html:140
@@ -2611,31 +2206,24 @@ msgid "In terms of the formatting flags noted above, these are"
 msgstr "在上面提到的格式化标志而言，这些是"
 
 #: geonode/layers/templates/upload/no_upload.html:7
-msgid ""
-"Returning to the upload starting page in <span id=\"cnt\">5</span>seconds "
+msgid "Returning to the upload starting page in <span id=\"cnt\">5</span>seconds "
 msgstr "返回到上载起始页在<span id=\"cnt\">5</span>秒"
 
 #: geonode/layers/templates/upload/no_upload.html:8
 msgid " Or just go "
 msgstr "或者只是去"
 
-#: geonode/layers/templates/upload/no_upload.html:8
-#: geonode/templates/relationships/success.html:6
+#: geonode/layers/templates/upload/no_upload.html:8 geonode/templates/relationships/success.html:6
 msgid "now"
 msgstr "现在"
 
 #: geonode/layers/views.py:79
-msgid ""
-"There was an error while attempting to upload your data. Please try again, "
-"or contact and administrator if the problem continues."
+msgid "There was an error while attempting to upload your data. Please try again, or contact and administrator if the problem continues."
 msgstr "在上传数据时出现错误。请重试，如果还有问题，请与管理员联系。"
 
 #: geonode/layers/views.py:82
-msgid ""
-"Note: this layer's orginal metadata was populated and preserved by importing "
-"a metadata XML file. This metadata cannot be edited."
-msgstr ""
-"注意： 该图层的原始元数据已通过导入一个元数据XML文件保存。 该元数据不能被编辑。"
+msgid "Note: this layer's orginal metadata was populated and preserved by importing a metadata XML file. This metadata cannot be edited."
+msgstr "注意： 该图层的原始元数据已通过导入一个元数据XML文件保存。 该元数据不能被编辑。"
 
 #: geonode/layers/views.py:85
 msgid "You are not permitted to delete this layer"
@@ -2670,9 +2258,7 @@ msgid "Unable to delete layer"
 msgstr "不能删除图层"
 
 #: geonode/layers/views.py:792 geonode/layers/views.py:827
-msgid ""
-"This layer is a member of a layer group, you must remove the layer from the "
-"group before deleting."
+msgid "This layer is a member of a layer group, you must remove the layer from the group before deleting."
 msgstr "该图层是一个图层组的成员，您必须在删除之前从群体中移除该图层。"
 
 #: geonode/maps/__init__.py:28
@@ -2791,17 +2377,11 @@ msgstr "数据源参数"
 msgid "JSON Configuration"
 msgstr "JSON配置"
 
-#: geonode/maps/templates/leaflet_maps/map_base.html:5
-#: geonode/maps/templates/leaflet_maps/map_list.html:11
-#: geonode/maps/templates/maps/map_list.html:11
-#: geonode/maps/templates/maps/map_metadata_advanced.html:16
-#: geonode/templates/base.html:78 geonode/templates/base.html.py:206
+#: geonode/maps/templates/leaflet_maps/map_base.html:5 geonode/maps/templates/leaflet_maps/map_list.html:11 geonode/maps/templates/maps/map_list.html:11 geonode/maps/templates/maps/map_metadata_advanced.html:16 geonode/templates/base.html:78 geonode/templates/base.html.py:206
 msgid "Explore Maps"
 msgstr "浏览地图"
 
-#: geonode/maps/templates/leaflet_maps/map_list.html:10
-#: geonode/maps/templates/maps/map_detail.html:211
-#: geonode/maps/templates/maps/map_list.html:10
+#: geonode/maps/templates/leaflet_maps/map_list.html:10 geonode/maps/templates/maps/map_detail.html:211 geonode/maps/templates/maps/map_list.html:10
 msgid "Create a New Map"
 msgstr "生成新地图"
 
@@ -2813,8 +2393,7 @@ msgstr "GeoExplorer"
 msgid "Rate this Map"
 msgstr "给此地图评分"
 
-#: geonode/maps/templates/maps/map_detail.html:87
-#: geonode/maps/templates/maps/map_detail.html:102
+#: geonode/maps/templates/maps/map_detail.html:87 geonode/maps/templates/maps/map_detail.html:102
 msgid "Download Map"
 msgstr "下载地图"
 
@@ -2826,9 +2405,7 @@ msgstr "下载数据图层"
 msgid "Download Web Map Context"
 msgstr "下载网络地图背景"
 
-#: geonode/maps/templates/maps/map_detail.html:118
-#: geonode/maps/templates/maps/map_detail.html:125
-#: geonode/maps/templates/maps/map_edit.html:6
+#: geonode/maps/templates/maps/map_detail.html:118 geonode/maps/templates/maps/map_detail.html:125 geonode/maps/templates/maps/map_edit.html:6
 msgid "Edit Map"
 msgstr "编辑地图"
 
@@ -2876,8 +2453,7 @@ msgstr "WMS地图"
 msgid "WMS layer group for local map layers"
 msgstr "WMS图层组为当地的地图图层"
 
-#: geonode/maps/templates/maps/map_detail.html:219
-#: geonode/social/templatetags/social_tags.py:68 geonode/social/tests.py:128
+#: geonode/maps/templates/maps/map_detail.html:219 geonode/social/templatetags/social_tags.py:68 geonode/social/tests.py:128
 msgid "on"
 msgstr "上"
 
@@ -2910,8 +2486,7 @@ msgstr ""
 #: geonode/maps/templates/maps/map_download.html:22
 msgid ""
 "\n"
-"      <div class=\"alert alert-warning\">Could not find downloadable layers "
-"for this map. You can go back to  \n"
+"      <div class=\"alert alert-warning\">Could not find downloadable layers for this map. You can go back to  \n"
 "      "
 msgstr ""
 "\n"
@@ -2920,8 +2495,7 @@ msgstr ""
 #: geonode/maps/templates/maps/map_download.html:29
 msgid ""
 "\n"
-"        Additionally, the map contains these layers which will not be "
-"downloaded\n"
+"        Additionally, the map contains these layers which will not be downloaded\n"
 "        due to security restrictions:\n"
 "      "
 msgstr ""
@@ -2966,18 +2540,12 @@ msgstr "下载失败"
 msgid "for %(map_title)s"
 msgstr "给%(map_title)s"
 
-#: geonode/maps/templates/maps/map_metadata.html:39
-#: geonode/maps/templates/maps/map_metadata_advanced.html:28
+#: geonode/maps/templates/maps/map_metadata.html:39 geonode/maps/templates/maps/map_metadata_advanced.html:28
 msgid ""
-"Note: this map's orginal metadata was populated by importing a metadata XML "
-"file.\n"
-"        GeoNode's metadata import supports a subset of ISO, FGDC, and Dublin "
-"Core metadata elements.\n"
+"Note: this map's orginal metadata was populated by importing a metadata XML file.\n"
+"        GeoNode's metadata import supports a subset of ISO, FGDC, and Dublin Core metadata elements.\n"
 "        Some of your original metadata may have been lost."
-msgstr ""
-"注：此图的原单的元数据被填充通过导入元数据的XML文件。"
-"        GeoNode的元数据导入支持ISO，FGDC和都柏林核心元数据元素的一个子集。"
-"        一些您原来的元数据可能已经丢失。"
+msgstr "注：此图的原单的元数据被填充通过导入元数据的XML文件。        GeoNode的元数据导入支持ISO，FGDC和都柏林核心元数据元素的一个子集。        一些您原来的元数据可能已经丢失。"
 
 #: geonode/maps/templates/maps/map_metadata_advanced.html:22
 #, python-format
@@ -2990,10 +2558,8 @@ msgstr ""
 "编辑细节%(map_title)s"
 
 #: geonode/maps/templates/maps/map_new.html:6
-#, fuzzy
-#| msgid "View Map"
 msgid "New Map"
-msgstr "浏览地图"
+msgstr "新地图"
 
 #: geonode/maps/templates/maps/map_remove.html:10
 msgid "Remove Map"
@@ -3003,13 +2569,11 @@ msgstr "移除地图"
 #, python-format
 msgid ""
 "\n"
-"          Are you sure you want to remove <a href=\"%(map.get_absolute_url)s"
-"\">%(map_title)s</a>?\n"
+"          Are you sure you want to remove <a href=\"%(map.get_absolute_url)s\">%(map_title)s</a>?\n"
 "        "
 msgstr ""
 "\n"
-"          您确定您想要移除 <a href=\"%(map.get_absolute_url)s"
-"\">%(map_title)s</a>?\n"
+"          您确定您想要移除 <a href=\"%(map.get_absolute_url)s\">%(map_title)s</a>?\n"
 "        "
 
 #: geonode/maps/views.py:81
@@ -3043,7 +2607,8 @@ msgstr "未知出错。"
 #: geonode/maps/views.py:1377 geonode/layers/views.py:1316
 msgid "Thumbnail saved"
 msgstr "缩略图已保存"
- #: geonode/maps/views.py:1380 geonode/layers/views.py:1319
+
+#: geonode/maps/views.py:1380 geonode/layers/views.py:1319
 msgid "error saving thumbnail"
 msgstr "缩略图保存出错"
 
@@ -3097,9 +2662,7 @@ msgid "party who authored the resource"
 msgstr "资源授权方"
 
 #: geonode/people/enumerations.py:40
-msgid ""
-"party who has processed the data in a manner such that the resource has been "
-"modified"
+msgid "party who has processed the data in a manner such that the resource has been modified"
 msgstr "资源修改方"
 
 #: geonode/people/enumerations.py:41
@@ -3107,15 +2670,11 @@ msgid "party who published the resource"
 msgstr "资源发布方"
 
 #: geonode/people/enumerations.py:42
-msgid ""
-"party that accepts accountability and responsibility for the data and "
-"ensures         appropriate care and maintenance of the resource"
+msgid "party that accepts accountability and responsibility for the data and ensures         appropriate care and maintenance of the resource"
 msgstr "接受问责和责任的数据，并确保资源的适当的维护和保养方"
 
 #: geonode/people/enumerations.py:44
-msgid ""
-"party who can be contacted for acquiring knowledge about or acquisition of "
-"the resource"
+msgid "party who can be contacted for acquiring knowledge about or acquisition of the resource"
 msgstr "资源信息查询方"
 
 #: geonode/people/enumerations.py:45
@@ -3154,8 +2713,7 @@ msgstr "组织名称"
 msgid "name of the responsible organization"
 msgstr "命名有关责任组织"
 
-#: geonode/people/models.py:55 geonode/templates/500.html:218
-#: geonode/templates/base.html:136
+#: geonode/people/models.py:55 geonode/templates/500.html:218 geonode/templates/base.html:136
 msgid "Profile"
 msgstr "简介"
 
@@ -3171,18 +2729,12 @@ msgstr "职位名称"
 msgid "role or position of the responsible person"
 msgstr "责任人的作用"
 
-#: geonode/people/models.py:62
-#: geonode/people/templates/people/profile_detail.html:86
-#: geonode/templates/metadata_detail.html:135
-#: geonode/templates/metadata_detail.html:277
-#: geonode/templates/metadata_detail.html:353
+#: geonode/people/models.py:62 geonode/people/templates/people/profile_detail.html:86 geonode/templates/metadata_detail.html:135 geonode/templates/metadata_detail.html:277 geonode/templates/metadata_detail.html:353
 msgid "Voice"
 msgstr "发言"
 
 #: geonode/people/models.py:63
-msgid ""
-"telephone number by which individuals can speak to the responsible "
-"organization or individual"
+msgid "telephone number by which individuals can speak to the responsible organization or individual"
 msgstr "负责人或负责机构的联系电话"
 
 #: geonode/people/models.py:64
@@ -3190,9 +2742,7 @@ msgid "Facsimile"
 msgstr "传真"
 
 #: geonode/people/models.py:65
-msgid ""
-"telephone number of a facsimile machine for the responsible organization or "
-"individual"
+msgid "telephone number of a facsimile machine for the responsible organization or individual"
 msgstr "负责人或负责机构的传真联系号码"
 
 #: geonode/people/models.py:67
@@ -3200,9 +2750,7 @@ msgid "Delivery Point"
 msgstr "联系地址"
 
 #: geonode/people/models.py:71
-msgid ""
-"physical and email address at which the organization or individual may be "
-"contacted"
+msgid "physical and email address at which the organization or individual may be contacted"
 msgstr "可以联系到负责人或负责团体的地址及email地址"
 
 #: geonode/people/models.py:73
@@ -3238,9 +2786,7 @@ msgid "country of the physical address"
 msgstr "实际地址所在的国家"
 
 #: geonode/people/models.py:97
-msgid ""
-"commonly used word(s) or formalised word(s) or phrase(s) used to describe "
-"the subject             (space or comma-separated"
+msgid "commonly used word(s) or formalised word(s) or phrase(s) used to describe the subject             (space or comma-separated"
 msgstr "用于描述对象的常用或正式的词语或短语，关键词之间用空格或逗号隔开"
 
 #: geonode/people/models.py:95
@@ -3255,9 +2801,7 @@ msgstr "没有群体"
 msgid "All contents"
 msgstr "所有内容"
 
-#: geonode/people/templates/people/_profile_filters.html:7
-#: geonode/templates/500.html:61 geonode/templates/base.html:64
-#: geonode/templates/base.html.py:194
+#: geonode/people/templates/people/_profile_filters.html:7 geonode/templates/500.html:61 geonode/templates/base.html:64 geonode/templates/base.html.py:194
 msgid "Documents"
 msgstr "文件"
 
@@ -3266,13 +2810,10 @@ msgid "Forgot Username"
 msgstr "忘记用户名"
 
 #: geonode/people/templates/people/forgot_username_form.html:10
-msgid ""
-"Enter your email address and click the submit button. <br />Your username "
-"will be sent to you."
+msgid "Enter your email address and click the submit button. <br />Your username will be sent to you."
 msgstr "请输入电子邮箱地址并点击提交按钮。<br />我们将向您发送您的用户名。"
 
-#: geonode/people/templates/people/profile_create.html:8
-#: geonode/people/templates/people/profile_create.html:14
+#: geonode/people/templates/people/profile_create.html:8 geonode/people/templates/people/profile_create.html:14
 msgid "Create Profile"
 msgstr "创建个人信息"
 
@@ -3280,46 +2821,27 @@ msgstr "创建个人信息"
 msgid "Profile of "
 msgstr "简介-"
 
-#: geonode/people/templates/people/profile_detail.html:69
-#: geonode/people/templates/people/profile_detail.html:74
-#: geonode/people/templates/people/profile_detail.html:78
-#: geonode/people/templates/people/profile_detail.html:83
-#: geonode/people/templates/people/profile_detail.html:95
-#: geonode/people/templates/people/profile_detail.html:99
+#: geonode/people/templates/people/profile_detail.html:69 geonode/people/templates/people/profile_detail.html:74 geonode/people/templates/people/profile_detail.html:78 geonode/people/templates/people/profile_detail.html:83 geonode/people/templates/people/profile_detail.html:95 geonode/people/templates/people/profile_detail.html:99
 msgid "Not provided."
 msgstr "未提供信息。"
 
-#: geonode/people/templates/people/profile_detail.html:73
-#: geonode/templates/metadata_detail.html:126
-#: geonode/templates/metadata_detail.html:268
-#: geonode/templates/metadata_detail.html:344
+#: geonode/people/templates/people/profile_detail.html:73 geonode/templates/metadata_detail.html:126 geonode/templates/metadata_detail.html:268 geonode/templates/metadata_detail.html:344
 msgid "Position"
 msgstr "位置"
 
-#: geonode/people/templates/people/profile_detail.html:77
-#: geonode/templates/metadata_detail.html:129
-#: geonode/templates/metadata_detail.html:271
-#: geonode/templates/metadata_detail.html:347
+#: geonode/people/templates/people/profile_detail.html:77 geonode/templates/metadata_detail.html:129 geonode/templates/metadata_detail.html:271 geonode/templates/metadata_detail.html:347
 msgid "Organization"
 msgstr "组织"
 
-#: geonode/people/templates/people/profile_detail.html:82
-#: geonode/templates/metadata_detail.html:132
-#: geonode/templates/metadata_detail.html:274
-#: geonode/templates/metadata_detail.html:350
+#: geonode/people/templates/people/profile_detail.html:82 geonode/templates/metadata_detail.html:132 geonode/templates/metadata_detail.html:274 geonode/templates/metadata_detail.html:350
 msgid "Location"
 msgstr "位置"
 
-#: geonode/people/templates/people/profile_detail.html:94
-#: geonode/templates/metadata_detail.html:138
-#: geonode/templates/metadata_detail.html:280
-#: geonode/templates/metadata_detail.html:356
+#: geonode/people/templates/people/profile_detail.html:94 geonode/templates/metadata_detail.html:138 geonode/templates/metadata_detail.html:280 geonode/templates/metadata_detail.html:356
 msgid "Fax"
 msgstr "传真"
 
-#: geonode/people/templates/people/profile_detail.html:110
-#: geonode/services/views.py:550 geonode/services/views.py:652
-#: geonode/services/views.py:724 geonode/services/views.py:882
+#: geonode/people/templates/people/profile_detail.html:110 geonode/services/views.py:550 geonode/services/views.py:652 geonode/services/views.py:724 geonode/services/views.py:882
 msgid "Not provided"
 msgstr "未提供"
 
@@ -3327,8 +2849,7 @@ msgstr "未提供"
 msgid "Message User"
 msgstr "用户消息"
 
-#: geonode/people/templates/people/profile_detail.html:124
-#: geonode/people/templates/people/profile_detail.html:156
+#: geonode/people/templates/people/profile_detail.html:124 geonode/people/templates/people/profile_detail.html:156
 msgid "Edit profile"
 msgstr "编辑配置文件"
 
@@ -3360,42 +2881,30 @@ msgstr "创建一个新的地图"
 msgid "My Activities"
 msgstr "我的活动"
 
-#: geonode/people/templates/people/profile_detail.html:134
-#: geonode/templates/500.html:222
+#: geonode/people/templates/people/profile_detail.html:134 geonode/templates/500.html:222
 msgid "Notifications"
 msgstr "通知"
 
-#: geonode/people/templates/people/profile_detail.html:137
-#: geonode/templates/500.html:225
-#: geonode/templates/announcements/announcement_list.html:6
-#: geonode/templates/announcements/announcement_list.html:13
-#: geonode/templates/base.html:92 geonode/templates/base.html.py:218
+#: geonode/people/templates/people/profile_detail.html:137 geonode/templates/500.html:225 geonode/templates/announcements/announcement_list.html:6 geonode/templates/announcements/announcement_list.html:13 geonode/templates/base.html:92 geonode/templates/base.html.py:218
 msgid "Announcements"
 msgstr "通知"
 
-#: geonode/people/templates/people/profile_detail.html:142
-#: geonode/services/templates/services/service_list.html:9
-#: geonode/templates/500.html:228 geonode/templates/base.html:66
-#: geonode/templates/base.html.py:196
+#: geonode/people/templates/people/profile_detail.html:142 geonode/services/templates/services/service_list.html:9 geonode/templates/500.html:228 geonode/templates/base.html:66 geonode/templates/base.html.py:196
 msgid "Remote Services"
 msgstr "远程服务"
 
-#: geonode/people/templates/people/profile_detail.html:143
-#: geonode/templates/500.html:229 geonode/templates/account/invite_user.html:8
-#: geonode/templates/account/invite_user.html:15 geonode/templates/base.html:97
-#: geonode/templates/base.html.py:222
+#: geonode/people/templates/people/profile_detail.html:143 geonode/templates/500.html:229 geonode/templates/account/invite_user.html:8 geonode/templates/account/invite_user.html:15 geonode/templates/base.html:97 geonode/templates/base.html.py:222
 msgid "Invite User"
 msgstr "邀请用户"
+
 msgid "Invite Users"
 msgstr "邀请用户"
 
-#: geonode/people/templates/people/profile_detail.html:144
-#: geonode/templates/500.html:231
+#: geonode/people/templates/people/profile_detail.html:144 geonode/templates/500.html:231
 msgid "GeoServer"
 msgstr "GeoServer"
 
-#: geonode/people/templates/people/profile_detail.html:147
-#: geonode/templates/500.html:234
+#: geonode/people/templates/people/profile_detail.html:147 geonode/templates/500.html:234
 msgid "Admin"
 msgstr "网站管理"
 
@@ -3423,8 +2932,7 @@ msgstr "更换头像"
 msgid "Update profile"
 msgstr "更新个人信息"
 
-#: geonode/people/templates/people/profile_list.html:4
-#: geonode/people/templates/people/profile_list.html:10
+#: geonode/people/templates/people/profile_list.html:4 geonode/people/templates/people/profile_list.html:10
 msgid "Explore People"
 msgstr "浏览用户"
 
@@ -3520,10 +3028,7 @@ msgstr "图层样式"
 msgid "All/None"
 msgstr "全部/无"
 
-#: geonode/services/templates/services/layers_register.html:27
-#: geonode/templates/metadata_detail.html:120
-#: geonode/templates/metadata_detail.html:262
-#: geonode/templates/metadata_detail.html:338
+#: geonode/services/templates/services/layers_register.html:27 geonode/templates/metadata_detail.html:120 geonode/templates/metadata_detail.html:262 geonode/templates/metadata_detail.html:338
 msgid "Name"
 msgstr "名称"
 
@@ -3589,7 +3094,7 @@ msgstr "注册新服务"
 
 #: geonode/services/templates/services/service_register.html:13
 msgid "Register New Service"
-msgstr ""
+msgstr "注册新服务"
 
 #: geonode/services/templates/services/service_register.html:23
 msgid "Service has been created:"
@@ -3610,23 +3115,14 @@ msgstr "您确定要删除"
 #: geonode/services/views.py:72
 msgid ""
 "\n"
-"The Open Geoportal is a consortium comprised of contributions of several "
-"universities and organizations to help\n"
-"facilitate the discovery and acquisition of geospatial data across many "
-"organizations and platforms. Current partners\n"
-"include: Harvard, MIT, MassGIS, Princeton, Columbia, Stanford, UC Berkeley, "
-"UCLA, Yale, and UConn. Built on open source\n"
-"technology, The Open Geoportal provides organizations the opportunity to "
-"share thousands of geospatial data layers,\n"
-"maps, metadata, and development resources through a single common "
-"interface.\n"
+"The Open Geoportal is a consortium comprised of contributions of several universities and organizations to help\n"
+"facilitate the discovery and acquisition of geospatial data across many organizations and platforms. Current partners\n"
+"include: Harvard, MIT, MassGIS, Princeton, Columbia, Stanford, UC Berkeley, UCLA, Yale, and UConn. Built on open source\n"
+"technology, The Open Geoportal provides organizations the opportunity to share thousands of geospatial data layers,\n"
+"maps, metadata, and development resources through a single common interface.\n"
 msgstr ""
 "\n"
-"开源Geoportal是由几所大学和机构的捐款，帮助推动在许多组织和平台，发现和采集的"
-"地理空间数据的联合体。目前的合作伙伴包括：哈佛大学，麻省理工学院，MassGIS，普"
-"林斯顿大学，哥伦比亚大学，斯坦福大学，加州大学伯克利分校，加州大学洛杉矶分"
-"校，耶鲁大学，康涅狄格大学和。基于开源技术，开放Geoportal为企业提供了机会，通"
-"过一个通用的接口，成千上万的共享地理空间数据图层，地图，元数据和开发资源。\n"
+"开源Geoportal是由几所大学和机构的捐款，帮助推动在许多组织和平台，发现和采集的地理空间数据的联合体。目前的合作伙伴包括：哈佛大学，麻省理工学院，MassGIS，普林斯顿大学，哥伦比亚大学，斯坦福大学，加州大学伯克利分校，加州大学洛杉矶分校，耶鲁大学，康涅狄格大学和。基于开源技术，开放Geoportal为企业提供了机会，通过一个通用的接口，成千上万的共享地理空间数据图层，地图，元数据和开发资源。\n"
 
 #: geonode/services/views.py:290
 msgid "This is an existing service"
@@ -3638,12 +3134,8 @@ msgstr "无法找到兼容的投影任何图层。"
 
 #: geonode/services/views.py:988
 #, python-format
-msgid ""
-"Could not find any layers in a compatible projection:                     "
-"The spatial id was: %(srs)s and the url %(url)s"
-msgstr ""
-"在兼容投影下找不到任何图层：                     "
-"该空间id是: %(srs)s 和地址 %(url)s"
+msgid "Could not find any layers in a compatible projection:                     The spatial id was: %(srs)s and the url %(url)s"
+msgstr "在兼容投影下找不到任何图层：                     该空间id是: %(srs)s 和地址 %(url)s"
 
 #: geonode/services/views.py:1252
 msgid "You are not permitted to remove this service."
@@ -3677,8 +3169,7 @@ msgstr "上传"
 msgid "ago"
 msgstr "前"
 
-#: geonode/social/templates/social/activity_list.html:4
-#: geonode/social/templates/social/activity_list.html:15
+#: geonode/social/templates/social/activity_list.html:4 geonode/social/templates/social/activity_list.html:15
 msgid "Recent activity"
 msgstr "近期活动"
 
@@ -3691,11 +3182,6 @@ msgid "Not Permitted"
 msgstr "不允许"
 
 #: geonode/templates/401.html:18
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "          You are not allowed to perform this operation.  \n"
-#| "      "
 msgid ""
 "\n"
 "          You are not allowed to perform this operation.\n"
@@ -3719,15 +3205,13 @@ msgstr "找不到网页"
 #: geonode/templates/404.html:6
 msgid ""
 "\n"
-"      The page you requested does not exist.  Perhaps you are using an "
-"outdated bookmark?\n"
+"      The page you requested does not exist.  Perhaps you are using an outdated bookmark?\n"
 "  "
 msgstr ""
 "\n"
 "您请求的页面不存在。原因可能是网址过时？ "
 
-#: geonode/templates/500.html:66 geonode/templates/base.html:88
-#: geonode/templates/base.html.py:215
+#: geonode/templates/500.html:66 geonode/templates/base.html:88 geonode/templates/base.html.py:215
 msgid "People"
 msgstr "用户"
 
@@ -3735,9 +3219,7 @@ msgstr "用户"
 msgid "Register"
 msgstr "注册"
 
-#: geonode/templates/500.html:100 geonode/templates/500.html.py:200
-#: geonode/templates/base.html:151 geonode/templates/base.html.py:260
-#: geonode/templates/base.html:278
+#: geonode/templates/500.html:100 geonode/templates/500.html.py:200 geonode/templates/base.html:151 geonode/templates/base.html.py:260 geonode/templates/base.html:278
 msgid "Sign in"
 msgstr "登录"
 
@@ -3748,18 +3230,13 @@ msgstr "有一个问题，加载此页"
 #: geonode/templates/500.html:129
 msgid ""
 "\n"
-"            Please contact your GeoNode administrator (he may have received "
-"an email automatically if he configured it properly).\n"
-"            If you are the site administrator, enable debug mode to see the "
-"actual error and fix it or file an issue in <a href=\"http://github.com/"
-"GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
+"            Please contact your GeoNode administrator (he may have received an email automatically if he configured it properly).\n"
+"            If you are the site administrator, enable debug mode to see the actual error and fix it or file an issue in <a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
 "            "
 msgstr ""
 "\n"
-"            请联系您的GeoNode管理员（如果他正确安装了GeoNode"
-"他也许已经收到一封自动邮件。\n"
-"            如果您是网站管理员，能够调试去看真正的错误并修复错误或将其归档入"
-"<a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
+"            请联系您的GeoNode管理员（如果他正确安装了GeoNode他也许已经收到一封自动邮件。\n"
+"            如果您是网站管理员，能够调试去看真正的错误并修复错误或将其归档入<a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
 "            "
 
 #: geonode/templates/500.html:149 geonode/templates/base.html:229
@@ -3778,13 +3255,11 @@ msgstr "版本"
 msgid "Developer Section"
 msgstr "开发者版块"
 
-#: geonode/templates/500.html:188 geonode/templates/500.html.py:189
-#: geonode/templates/base.html:266 geonode/templates/base.html.py:267
+#: geonode/templates/500.html:188 geonode/templates/500.html.py:189 geonode/templates/base.html:266 geonode/templates/base.html.py:267
 msgid "Username"
 msgstr "用户名"
 
-#: geonode/templates/500.html:192 geonode/templates/base.html:270
-#: geonode/templates/base.html.py:271
+#: geonode/templates/500.html:192 geonode/templates/base.html:270 geonode/templates/base.html.py:271
 msgid "Password"
 msgstr "密码"
 
@@ -3800,8 +3275,7 @@ msgstr "菜单"
 msgid "Recent Activity"
 msgstr "最近的活动"
 
-#: geonode/templates/500.html:220 geonode/templates/base.html:138
-#: geonode/templates/user_messages/inbox.html:15
+#: geonode/templates/500.html:220 geonode/templates/base.html:138 geonode/templates/user_messages/inbox.html:15
 msgid "Inbox"
 msgstr "收件箱"
 
@@ -3809,10 +3283,7 @@ msgstr "收件箱"
 msgid "Help"
 msgstr "帮助"
 
-#: worldmap/templates/base.html:78
-#: geonode/templates/500.html:245 geonode/templates/account/logout.html:6
-#: geonode/templates/account/logout.html:12
-#: geonode/templates/account/logout.html:17
+#: worldmap/templates/base.html:78 geonode/templates/500.html:245 geonode/templates/account/logout.html:6 geonode/templates/account/logout.html:12 geonode/templates/account/logout.html:17
 msgid "Log out"
 msgstr "注销"
 
@@ -3844,8 +3315,7 @@ msgstr "Exif"
 msgid "Set permissions on selected resources"
 msgstr "对选定的资源设置权限"
 
-#: geonode/templates/_bulk_permissions_form.html:20
-#: geonode/templates/_permissions_form.html:16
+#: geonode/templates/_bulk_permissions_form.html:20 geonode/templates/_permissions_form.html:16
 msgid "Apply Changes"
 msgstr "应用更改"
 
@@ -3869,26 +3339,15 @@ msgstr "上传评论"
 msgid "Who can view it?"
 msgstr "谁可以查看它？"
 
-#: geonode/templates/_permissions.html:17
-#: geonode/templates/_permissions.html:49
+#: geonode/templates/_permissions.html:17 geonode/templates/_permissions.html:49
 msgid "Anyone"
 msgstr "任何人"
 
-#: geonode/templates/_permissions.html:22
-#: geonode/templates/_permissions.html:54
-#: geonode/templates/_permissions.html:80
-#: geonode/templates/_permissions.html:107
-#: geonode/templates/_permissions.html:133
-#: geonode/templates/_permissions.html:160
+#: geonode/templates/_permissions.html:22 geonode/templates/_permissions.html:54 geonode/templates/_permissions.html:80 geonode/templates/_permissions.html:107 geonode/templates/_permissions.html:133 geonode/templates/_permissions.html:160
 msgid "The following users:"
 msgstr "以下用户："
 
-#: geonode/templates/_permissions.html:28
-#: geonode/templates/_permissions.html:60
-#: geonode/templates/_permissions.html:86
-#: geonode/templates/_permissions.html:113
-#: geonode/templates/_permissions.html:139
-#: geonode/templates/_permissions.html:166
+#: geonode/templates/_permissions.html:28 geonode/templates/_permissions.html:60 geonode/templates/_permissions.html:86 geonode/templates/_permissions.html:113 geonode/templates/_permissions.html:139 geonode/templates/_permissions.html:166
 msgid "The following groups:"
 msgstr "以下群体："
 
@@ -3909,8 +3368,7 @@ msgid "Who can edit styles for this layer?"
 msgstr "谁可以编辑样式这一层？"
 
 #: geonode/templates/_permissions.html:152
-msgid ""
-"Who can manage it? (update, delete, change permissions, publish/unpublish it)"
+msgid "Who can manage it? (update, delete, change permissions, publish/unpublish it)"
 msgstr "谁可以管理它？ (更新，删除，更改权限，发布/取消发布)"
 
 #: geonode/templates/_permissions_form.html:9
@@ -3945,20 +3403,14 @@ msgstr "它还被设计成一个灵活的、软件开发人员可以扩展、修
 msgid "About GeoNode."
 msgstr "关于GeoNode"
 
-#: geonode/templates/account/admin_approval_sent.html:6
-#: geonode/templates/account/admin_approval_sent.html:11
+#: geonode/templates/account/admin_approval_sent.html:6 geonode/templates/account/admin_approval_sent.html:11
 msgid "Account Pending Approval"
 msgstr "等待批准的账户"
 
 #: geonode/templates/account/admin_approval_sent.html:14
 #, python-format
-msgid ""
-"We have sent the administrators a notice to approve your account associated "
-"with <b>%(email)s</b>. If the account is approved, you will receive a "
-"confirmation notice."
-msgstr ""
-"我们已经给管理员发送了一个通知准许您的账户与<b>%(email)s</b>连接。 "
-"如果该账户被批准，您将收到一个确认通知。"
+msgid "We have sent the administrators a notice to approve your account associated with <b>%(email)s</b>. If the account is approved, you will receive a confirmation notice."
+msgstr "我们已经给管理员发送了一个通知准许您的账户与<b>%(email)s</b>连接。 如果该账户被批准，您将收到一个确认通知。"
 
 #: geonode/templates/account/email/email_confirmation_message.txt:1
 #, python-format
@@ -3969,8 +3421,7 @@ msgid ""
 "\n"
 "If you did not sign up for this site, you can ignore this message.\n"
 msgstr ""
-"在 %(site_name)s 的用户已经创建了使用该电子邮件地址的帐户。为了证实该电子邮"
-"件地址，转到 %(activate_url)s \n"
+"在 %(site_name)s 的用户已经创建了使用该电子邮件地址的帐户。为了证实该电子邮件地址，转到 %(activate_url)s \n"
 "\n"
 "如果您没有注册该网站，您可以忽略此消息。\n"
 
@@ -3982,15 +3433,12 @@ msgstr "确认电子邮件地址 %(site_name)s"
 #: geonode/templates/account/email/password_reset.txt:1
 #, python-format
 msgid ""
-"You're receiving this email because you or someone else has requested a "
-"password for your user account at %(site_name)s.\n"
-"It can be safely ignored if you did not request a password reset. Click the "
-"link below to reset your password.\n"
+"You're receiving this email because you or someone else has requested a password for your user account at %(site_name)s.\n"
+"It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
 "\n"
 "%(password_reset_url)s\n"
 msgstr ""
-"您收到这封电子邮件，因为您或其他人曾在 %(site_name)s 请求密码为您的用户帐户。"
-"它可以安全地忽略，如果您没有申请密码重置。点击以下链接重设密码。 \n"
+"您收到这封电子邮件，因为您或其他人曾在 %(site_name)s 请求密码为您的用户帐户。它可以安全地忽略，如果您没有申请密码重置。点击以下链接重设密码。 \n"
 "\n"
 "%(password_reset_url)s\n"
 
@@ -3999,22 +3447,16 @@ msgstr ""
 msgid "[%(site_name)s] Password reset"
 msgstr "[%(site_name)s] 密码重置"
 
-#: geonode/templates/account/email_confirmation_sent.html:6
-#: geonode/templates/account/email_confirmation_sent.html:11
+#: geonode/templates/account/email_confirmation_sent.html:6 geonode/templates/account/email_confirmation_sent.html:11
 msgid "Confirm your email address"
 msgstr "确认您的邮件地址"
 
 #: geonode/templates/account/email_confirmation_sent.html:14
 #, python-format
-msgid ""
-"We have sent you an email to <b>%(email)s</b> for verification. Follow the "
-"link provided to finalize the signup process."
-msgstr ""
-"我们已经发送了一封确认邮件给<b>%(email)s</b>。"
-"按照提供的链接完成注册。"
+msgid "We have sent you an email to <b>%(email)s</b> for verification. Follow the link provided to finalize the signup process."
+msgstr "我们已经发送了一封确认邮件给<b>%(email)s</b>。按照提供的链接完成注册。"
 
-#: geonode/templates/account/login.html:7
-#: geonode/templates/account/login.html:25
+#: geonode/templates/account/login.html:7 geonode/templates/account/login.html:25
 msgid "Log in"
 msgstr "登录"
 
@@ -4023,13 +3465,14 @@ msgid "Log in to an existing account"
 msgstr "登录到现有帐户"
 
 #: geonode/templates/account/login.html:21
-msgid "Please sign in with one\n"
-"      of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign up</a>"
-"      for a %(site_name)s account and sign in below:"
+msgid ""
+"Please sign in with one\n"
+"      of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign up</a>      for a %(site_name)s account and sign in below:"
 msgstr "请用您已存在的第三方账号登录。或者<a href=\"%(signup_url)s\">注册</a>一个 %(site_name)s 账号并在下方登录："
 
 #: geonode/templates/account/login.html:35
-msgid "If you have not created an account yet, then please\n"
+msgid ""
+"If you have not created an account yet, then please\n"
 "      <a href=\"%(signup_url)s\">sign up</a> first."
 msgstr "如果您未拥有账号，请先<a href=\"%(signup_url)s\">注册</a>。"
 
@@ -4074,11 +3517,8 @@ msgid "Forgotten your password?"
 msgstr "忘记密码？"
 
 #: geonode/templates/account/password_reset.html:19
-msgid ""
-"Enter your email address below, and we'll send you an email allowing you to "
-"reset it."
-msgstr ""
-"在下面输入您的邮件地址，我们将会向您发送一封允许您重置密码的邮件。"
+msgid "Enter your email address below, and we'll send you an email allowing you to reset it."
+msgstr "在下面输入您的邮件地址，我们将会向您发送一封允许您重置密码的邮件。"
 
 #: geonode/templates/account/password_reset.html:25
 msgid "Reset my password"
@@ -4086,17 +3526,10 @@ msgstr "重设密码"
 
 #: geonode/templates/account/password_reset.html:29
 #, python-format
-msgid ""
-"If you have any trouble resetting your password, contact us at <a href="
-"\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</"
-"a>."
-msgstr ""
-"如果您在重置密码时遇到任何问题，请联系我们， <a href=\"mailto:"
-"%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
+msgid "If you have any trouble resetting your password, contact us at <a href=\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
+msgstr "如果您在重置密码时遇到任何问题，请联系我们， <a href=\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
 
-#: geonode/templates/account/signup.html:7
-#: geonode/templates/account/signup.html:11
-#: geonode/templates/account/signup.html:17
+#: geonode/templates/account/signup.html:7 geonode/templates/account/signup.html:11 geonode/templates/account/signup.html:17
 msgid "Sign up"
 msgstr "注册"
 
@@ -4108,13 +3541,11 @@ msgstr "创建新的本地账户"
 msgid "Sorry, registrations are not open at this time."
 msgstr "对不起，注册没有及时打开。"
 
-#: geonode/templates/actstream/actor.html:7
-#: geonode/templates/actstream/actor.html:8
+#: geonode/templates/actstream/actor.html:7 geonode/templates/actstream/actor.html:8
 msgid "My Activity feed"
 msgstr "我的活动饲料"
 
-#: geonode/templates/actstream/actor.html:7
-#: geonode/templates/actstream/actor.html:8
+#: geonode/templates/actstream/actor.html:7 geonode/templates/actstream/actor.html:8
 msgid "Activity Feed"
 msgstr "活动资​​讯"
 
@@ -4128,7 +3559,7 @@ msgstr "GeoNode管理"
 
 #: geonode/templates/announcements/announcement_confirm_delete.html:10
 msgid "Delete Announcement?"
-msgstr ""
+msgstr "是否删除通知？"
 
 #: geonode/templates/announcements/announcement_confirm_delete.html:13
 msgid "Are you sure you want to delete this announcement?"
@@ -4149,30 +3580,43 @@ msgstr "创建公告"
 #: geonode/templates/announcements/announcement_list.html:21
 msgid "Level"
 msgstr "等级"
+
 msgid "level"
 msgstr "等级"
+
 msgid "content"
 msgstr "内容"
+
 msgid "General"
 msgstr "普通"
+
 msgid "Warning"
 msgstr "注意"
+
 msgid "Critical"
 msgstr "紧要"
+
 msgid "site wide"
 msgstr "全网可见"
+
 msgid "members only"
 msgstr "仅成员可见"
+
 msgid "dismissal type"
 msgstr "撤销类型"
+
 msgid "Session Only Dismissal"
 msgstr "只允许阶段性撤销"
+
 msgid "No Dismissals Allowed"
 msgstr "不允许撤销"
+
 msgid "Permanent Dismissal Allowed"
 msgstr "永久允许撤销"
+
 msgid "publish_end"
 msgstr "公布终止时间"
+
 msgid "publish_start"
 msgstr "公布起始时间"
 
@@ -4188,13 +3632,11 @@ msgstr "有效时间"
 #, python-format
 msgid ""
 "\n"
-"          Published from <b>%(publish_start)s</b> to <b>%(publish_end)s</"
-"b>.\n"
+"          Published from <b>%(publish_start)s</b> to <b>%(publish_end)s</b>.\n"
 "          "
 msgstr ""
 "\n"
-"          发布自 <b>%(publish_start)s</b> 到 <b>%(publish_end)s</"
-"b>.\n"
+"          发布自 <b>%(publish_start)s</b> 到 <b>%(publish_end)s</b>.\n"
 "          "
 
 #: geonode/templates/announcements/detail.html:4
@@ -4202,8 +3644,7 @@ msgstr ""
 msgid "Announcements : %(announcement)s"
 msgstr "公告：%(announcement)s"
 
-#: geonode/templates/avatar/add.html:6 geonode/templates/avatar/change.html:6
-#: geonode/templates/avatar/confirm_delete.html:5
+#: geonode/templates/avatar/add.html:6 geonode/templates/avatar/change.html:6 geonode/templates/avatar/confirm_delete.html:5
 msgid "Back to edit your profile information"
 msgstr "返回编辑您的个人信息"
 
@@ -4233,9 +3674,7 @@ msgstr "请选择您想删除的头像。"
 
 #: geonode/templates/avatar/confirm_delete.html:9
 #, python-format
-msgid ""
-"You have no avatars to delete. Please <a href=\"%(avatar_change_url)s"
-"\">upload one</a> now."
+msgid "You have no avatars to delete. Please <a href=\"%(avatar_change_url)s\">upload one</a> now."
 msgstr "您没有可删除的头像，请先<a href=\"%(avatar_change_url)s\">上传</a>。"
 
 #: geonode/templates/avatar/confirm_delete.html:15
@@ -4251,8 +3690,6 @@ msgid "Add Remote Service"
 msgstr "添加远程服务"
 
 #: geonode/templates/base.html:79 geonode/templates/base.html.py:208
-#, fuzzy
-#| msgid "Create a Map"
 msgid "Create Map"
 msgstr "创建地图"
 
@@ -4272,57 +3709,29 @@ msgstr "帮助信息 - 对GeoNode感兴趣的开发者"
 #, python-format
 msgid ""
 "\n"
-"    <p><a href=\"http://geonode.org/\">GeoNode</a> is an open service built "
-"on open source software. We encourage you to build new applications using "
-"the components and resources it provides. This page is a starting point for "
-"developers interesting in taking full advantage of GeoNode. It also includes "
-"links to the project's source code so anyone can build and customize their "
-"own GeoNode. </p>\n"
+"    <p><a href=\"http://geonode.org/\">GeoNode</a> is an open service built on open source software. We encourage you to build new applications using the components and resources it provides. This page is a starting point for developers interesting in taking full advantage of GeoNode. It also includes links to the project's source code so anyone can build and customize their own GeoNode. </p>\n"
 "\n"
 "    <h3>GeoNode Software</h3>\n"
 "\n"
-"    <p>All the code that runs GeoNode is open source. The code is available "
-"at <a href=\"http://github.com/GeoNode/geonode\">http://github.com/GeoNode/"
-"geonode/</a>. The issue tracker for the project is at <a href=\"http://"
-"github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/geonode/"
-"issues</a>.</p>\n"
+"    <p>All the code that runs GeoNode is open source. The code is available at <a href=\"http://github.com/GeoNode/geonode\">http://github.com/GeoNode/geonode/</a>. The issue tracker for the project is at <a href=\"http://github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/geonode/issues</a>.</p>\n"
 "\n"
-"    <p>GeoNode is built using several open source projects, each with its "
-"own community. If you are interested in contributing new features to the "
-"GeoNode, we encourage you to do so by contributing to one of the projects on "
-"which it is built:</p>\n"
+"    <p>GeoNode is built using several open source projects, each with its own community. If you are interested in contributing new features to the GeoNode, we encourage you to do so by contributing to one of the projects on which it is built:</p>\n"
 "    <ul>\n"
-"      <li><a href=\"http://geoext.org\">GeoExt</a> - The JavaScript toolkit "
-"for rich web mapping applications</li>\n"
-"      <li><a href=\"http://geoserver.org\">GeoServer</a> - Standards based "
-"server for geospatial information</li>\n"
-"      <li><a href=\"http://geowebcache.org\">GeoWebCache</a> - Cache engine "
-"for WMS Tiles</li><li><a href=\"http://openlayers.org\">OpenLayers</a> - "
-"Pure JavaScript library powering the maps of GeoExt</li>\n"
-"      <li><a href=\"http://pycsw.org\">pycsw</a> - CSW, OpenSearch and OAI-"
-"PMH metadata catalogue server</li>\n"
+"      <li><a href=\"http://geoext.org\">GeoExt</a> - The JavaScript toolkit for rich web mapping applications</li>\n"
+"      <li><a href=\"http://geoserver.org\">GeoServer</a> - Standards based server for geospatial information</li>\n"
+"      <li><a href=\"http://geowebcache.org\">GeoWebCache</a> - Cache engine for WMS Tiles</li><li><a href=\"http://openlayers.org\">OpenLayers</a> - Pure JavaScript library powering the maps of GeoExt</li>\n"
+"      <li><a href=\"http://pycsw.org\">pycsw</a> - CSW, OpenSearch and OAI-PMH metadata catalogue server</li>\n"
 "    </ul>\n"
 "\n"
 "    <h3>What are OGC Services?</h3>\n"
-"    <p>The data in this application is served using open standards endorsed "
-"by the <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</"
-"a>; in particular, WMS (Web Map Service) is used for accessing maps, WFS "
-"(Web Feature Service) is used for accessing vector data, and WCS (Web "
-"Coverage Service) is used for accessing raster data.  WMC (Web Map Context "
-"Documents) is used for sharing maps. You can use these services in your own "
-"applications using libraries such as OpenLayers, GeoTools, and OGR (all of "
-"which are open-source software and available at zero cost).</p>\n"
+"    <p>The data in this application is served using open standards endorsed by the <a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</a>; in particular, WMS (Web Map Service) is used for accessing maps, WFS (Web Feature Service) is used for accessing vector data, and WCS (Web Coverage Service) is used for accessing raster data.  WMC (Web Map Context Documents) is used for sharing maps. You can use these services in your own "
+"applications using libraries such as OpenLayers, GeoTools, and OGR (all of which are open-source software and available at zero cost).</p>\n"
 "\n"
 "    <h3>What is GeoWebCache?</h3>\n"
-"    <p>GeoWebCache provides mapping tiles that are compatible with a number "
-"of mapping engines, including Google Maps, Bing Maps and OpenLayers. All the "
-"data hosted by GeoNode is also available through GeoWebCache. GeoWebCache "
-"improves on WMS by caching data and providing more responsive maps.</p>\n"
+"    <p>GeoWebCache provides mapping tiles that are compatible with a number of mapping engines, including Google Maps, Bing Maps and OpenLayers. All the data hosted by GeoNode is also available through GeoWebCache. GeoWebCache improves on WMS by caching data and providing more responsive maps.</p>\n"
 "\n"
 "    <h3>CSW Example Code</h3>\n"
-"    <p>To interact with GeoNode's CSW you can use any CSW client (QGIS "
-"MetaSearch, GRASS, etc.).  The following example illustrates a simple "
-"invocation using the OWSLib Python package:</p>\n"
+"    <p>To interact with GeoNode's CSW you can use any CSW client (QGIS MetaSearch, GRASS, etc.).  The following example illustrates a simple invocation using the OWSLib Python package:</p>\n"
 "    <p><code>from owslib.csw import CatalogueServiceWeb</code></p>\n"
 "    <p><code>from owslib.fes import PropertyIsLike</code></p>\n"
 "    <p><code>csw = CatalogueServiceWeb('%(CATALOGUE_BASE_URL)s')</code></p>\n"
@@ -4333,83 +3742,45 @@ msgid ""
 "\n"
 "    <h3>OpenLayers Example Code</h3>\n"
 "\n"
-"    <p>To include a GeoNode map layer in an OpenLayers map, first find the "
-"name for that layer. This is found in the layer's <code>name</code> field "
-"(not <code>title</code>) of the layer list. For this example, we will use "
-"the Nicaraguan political boundaries background layer, whose name is "
-"<code>risk:nicaragua_admin</code>. Then, create an instance of OpenLayers."
-"Layer.WMS:</p>\n"
-"    <p><code>var geonodeLayer = new OpenLayers.Layer.WMS(\"GeoNode Risk Data"
-"\", \"http://demo.geonode.org/geoserver/wms\",{ layers: \"risk:"
-"nicaragua_admin\" });</code></p>\n"
+"    <p>To include a GeoNode map layer in an OpenLayers map, first find the name for that layer. This is found in the layer's <code>name</code> field (not <code>title</code>) of the layer list. For this example, we will use the Nicaraguan political boundaries background layer, whose name is <code>risk:nicaragua_admin</code>. Then, create an instance of OpenLayers.Layer.WMS:</p>\n"
+"    <p><code>var geonodeLayer = new OpenLayers.Layer.WMS(\"GeoNode Risk Data\", \"http://demo.geonode.org/geoserver/wms\",{ layers: \"risk:nicaragua_admin\" });</code></p>\n"
 "\n"
 "    <h3>Google Maps Example Code</h3>\n"
-"    <p>To include a GeoNode map layer in a Google Map, include the layer "
-"namein the URL template.</p>\n"
-"    <p><code>var tilelayer =  new GTileLayer(null, null, null, "
-"{tileUrlTemplate: 'http://demo.geonode.org/geoserver/gwc/service/gmaps?"
-"layers=risk:nicaragua_admin&#38;zoom={Z}&#38;x={X}&#38;y={Y}', isPng:true, "
-"opacity:0.5 } );</code></p>\n"
+"    <p>To include a GeoNode map layer in a Google Map, include the layer namein the URL template.</p>\n"
+"    <p><code>var tilelayer =  new GTileLayer(null, null, null, {tileUrlTemplate: 'http://demo.geonode.org/geoserver/gwc/service/gmaps?layers=risk:nicaragua_admin&#38;zoom={Z}&#38;x={X}&#38;y={Y}', isPng:true, opacity:0.5 } );</code></p>\n"
 "\n"
 "    <h3>Shapefile/GeoJSON/GML Output</h3>\n"
-"    <p>To get data from the GeoNode web services use the WFS protocol. For "
-"example, to get the full Nicaraguan admin boundaries use:</p>\n"
-"    <p><code>http://demo.geonode.org/geoserver/wfs?request=GetFeature&#38;"
-"typeName=risk:nicaragua_admin&#38;outputformat=SHAPE-ZIP</code></p>\n"
-"    <p>Changing output format to <code>json</code>, <code>GML2</code>, "
-"<code>GML3</code>, or <code>csv</code> will get data in those formats. The "
-"WFS protocol also can handle more precise queries, specifying a bounding box "
-"or various spatial and non-spatial filters based on the attributes of the "
-"data.</p>\n"
+"    <p>To get data from the GeoNode web services use the WFS protocol. For example, to get the full Nicaraguan admin boundaries use:</p>\n"
+"    <p><code>http://demo.geonode.org/geoserver/wfs?request=GetFeature&#38;typeName=risk:nicaragua_admin&#38;outputformat=SHAPE-ZIP</code></p>\n"
+"    <p>Changing output format to <code>json</code>, <code>GML2</code>, <code>GML3</code>, or <code>csv</code> will get data in those formats. The WFS protocol also can handle more precise queries, specifying a bounding box or various spatial and non-spatial filters based on the attributes of the data.</p>\n"
 "\n"
 "    <h3>GeoTools Example Code</h3>\n"
-"    <p>Create a DataStore and extract a FeatureType from it, then run a "
-"Query. It is all documented on the wiki at <code>http://geotools.org/</code>."
-"</p>\n"
+"    <p>Create a DataStore and extract a FeatureType from it, then run a Query. It is all documented on the wiki at <code>http://geotools.org/</code>.</p>\n"
 "    "
 msgstr ""
 "\n"
-"    <p><a href=\"http://geonode.org/\">GeoNode</a> 是一个大件在开源软件上的开放服"
-"务。我们鼓励您利用它提供的组件和资源搭建新的应用。该页面，对于那些对充分利用GeoNode感兴"
-"趣的开发者来说，是一个起点。它也包含了项目来源的链接，所以任何人都可以搭建和定制他们自己"
-"的GeoNode。</p>\n"
+"    <p><a href=\"http://geonode.org/\">GeoNode</a> 是一个大件在开源软件上的开放服务。我们鼓励您利用它提供的组件和资源搭建新的应用。该页面，对于那些对充分利用GeoNode感兴趣的开发者来说，是一个起点。它也包含了项目来源的链接，所以任何人都可以搭建和定制他们自己的GeoNode。</p>\n"
 "\n"
 "    <h3>GeoNode软件</h3>\n"
 "\n"
-"    <p>所有在GeoNode上运行的代码都是开源的。这些代码可在<a href=\"http://github.com/"
-"GeoNode/geonode\">http://github.com/GeoNode/</a>获得。该项目的问题跟踪在<a href="
-"\"http://github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/"
-"geonode/issues</a>.</p>\n"
+"    <p>所有在GeoNode上运行的代码都是开源的。这些代码可在<a href=\"http://github.com/GeoNode/geonode\">http://github.com/GeoNode/</a>获得。该项目的问题跟踪在<a href=\"http://github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/geonode/issues</a>.</p>\n"
 "\n"
-"    <p>GeoNode是利用一些开源项目建立的，这些项目有自己的社区。如果您对给GeoNode贡献新的"
-"特色感兴趣，我们鼓励您加入其中之一的项目去实现这样的想法：</p>\n"
+"    <p>GeoNode是利用一些开源项目建立的，这些项目有自己的社区。如果您对给GeoNode贡献新的特色感兴趣，我们鼓励您加入其中之一的项目去实现这样的想法：</p>\n"
 "    <ul>\n"
-"      <li><a href=\"http://geoext.org\">GeoExt</a> - 富网络制图应用的JavaScript"
-"工具包</li>\n"
-"      <li><a href=\"http://geoserver.org\">GeoServer</a> - 地理空间信息基于标准"
-"的服务器</li>\n"
-"      <li><a href=\"http://geowebcache.org\">GeoWebCache</a> - WMS瓦片的高速缓"
-"存引擎</li><li><a href=\"http://openlayers.org\">OpenLayers</a> - "
-"纯JavaScript库支持GeoExt地图</li>\n"
-"      <li><a href=\"http://pycsw.org\">pycsw</a> - CSW, OpenSearch and OAI-"
-"PMH元数据目录数据库</li>\n"
+"      <li><a href=\"http://geoext.org\">GeoExt</a> - 富网络制图应用的JavaScript工具包</li>\n"
+"      <li><a href=\"http://geoserver.org\">GeoServer</a> - 地理空间信息基于标准的服务器</li>\n"
+"      <li><a href=\"http://geowebcache.org\">GeoWebCache</a> - WMS瓦片的高速缓存引擎</li><li><a href=\"http://openlayers.org\">OpenLayers</a> - 纯JavaScript库支持GeoExt地图</li>\n"
+"      <li><a href=\"http://pycsw.org\">pycsw</a> - CSW, OpenSearch and OAI-PMH元数据目录数据库</li>\n"
 "    </ul>\n"
 "\n"
 "    <h3>什么是OGC服务?</h3>\n"
-"    <p>服务该应用的数据是利用开放的标准授权自<a href=\"http://opengeospatial.or"
-"g/\">Open Geospatial Consortium</a>;特别地，WMS(网络制图服务)是用来获得地图，WFS"
-"（网络要素服务）是用来获取矢量数据，WCS（网络覆盖服务）是用来获取栅格数据。WMC（网络制"
-"图环境文档）是用来分享地图的。您可以在您自己的应用上利用库例如OpenLayers, GeoTools,"
-" and OGR(这些全部都是开源软件且免费提供)去使用这些服务。</p>\n"
+"    <p>服务该应用的数据是利用开放的标准授权自<a href=\"http://opengeospatial.org/\">Open Geospatial Consortium</a>;特别地，WMS(网络制图服务)是用来获得地图，WFS（网络要素服务）是用来获取矢量数据，WCS（网络覆盖服务）是用来获取栅格数据。WMC（网络制图环境文档）是用来分享地图的。您可以在您自己的应用上利用库例如OpenLayers, GeoTools, and OGR(这些全部都是开源软件且免费提供)去使用这些服务。</p>\n"
 "\n"
 "    <h3>什么是GeoWebCache?</h3>\n"
-"    <p>GeoWebCache提供可兼容多数制图引擎的制图瓦片，包括Google Maps, Bing Maps "
-"and OpenLayers. 所有GeoNode中的数据也可通过GeoWebCache找到。GeoWebCache通过缓存"
-"数据和提供更多的响应地图对WMS加以改良。</p>\n"
+"    <p>GeoWebCache提供可兼容多数制图引擎的制图瓦片，包括Google Maps, Bing Maps and OpenLayers. 所有GeoNode中的数据也可通过GeoWebCache找到。GeoWebCache通过缓存数据和提供更多的响应地图对WMS加以改良。</p>\n"
 "\n"
 "    <h3>CSW代码示例</h3>\n"
-"    <p>您可以利用任何CSW客户端（QGIS MetaSearch, GRASS, etc.）去连接GeoNode的"
-"下列例子举例说明了一种简单的利用OWSLib Python包的调用:</p>\n"
+"    <p>您可以利用任何CSW客户端（QGIS MetaSearch, GRASS, etc.）去连接GeoNode的下列例子举例说明了一种简单的利用OWSLib Python包的调用:</p>\n"
 "    <p><code>from owslib.csw import CatalogueServiceWeb</code></p>\n"
 "    <p><code>from owslib.fes import PropertyIsLike</code></p>\n"
 "    <p><code>csw = CatalogueServiceWeb('%(CATALOGUE_BASE_URL)s')</code></p>\n"
@@ -4420,33 +3791,20 @@ msgstr ""
 "\n"
 "    <h3>OpenLayers代码示例</h3>\n"
 "\n"
-"    <p>为了在一张OpenLayers地图中包含一张GeoNode地图图层，首先需要找到该图层的名字"
-"该在图层列表的<code>name</code> 处找（不是<code>title</code>）。针对该例子，我"
-"们将利用Nicaraguan行政区划背景图层，它的名字是<code>risk:nicaragua_admin</code>。"
-"然后，创建一个OpenLayers.Layer.WMS的实例：</p>\n"
-"    <p><code>var geonodeLayer = new OpenLayers.Layer.WMS(\"GeoNode Risk Data"
-"\", \"http://demo.geonode.org/geoserver/wms\",{ layers: \"risk:"
-"nicaragua_admin\" });</code></p>\n"
+"    <p>为了在一张OpenLayers地图中包含一张GeoNode地图图层，首先需要找到该图层的名字该在图层列表的<code>name</code> 处找（不是<code>title</code>）。针对该例子，我们将利用Nicaraguan行政区划背景图层，它的名字是<code>risk:nicaragua_admin</code>。然后，创建一个OpenLayers.Layer.WMS的实例：</p>\n"
+"    <p><code>var geonodeLayer = new OpenLayers.Layer.WMS(\"GeoNode Risk Data\", \"http://demo.geonode.org/geoserver/wms\",{ layers: \"risk:nicaragua_admin\" });</code></p>\n"
 "\n"
 "    <h3>Google地图代码示例</h3>\n"
 "    <p>为了在一个Google地图中包含一张GeoNode地图图层，包含在地址模板中的图层名称。</p>\n"
-"    <p><code>var tilelayer =  new GTileLayer(null, null, null, "
-"{tileUrlTemplate: 'http://demo.geonode.org/geoserver/gwc/service/gmaps?"
-"layers=risk:nicaragua_admin&#38;zoom={Z}&#38;x={X}&#38;y={Y}', isPng:true, "
-"opacity:0.5 } );</code></p>\n"
+"    <p><code>var tilelayer =  new GTileLayer(null, null, null, {tileUrlTemplate: 'http://demo.geonode.org/geoserver/gwc/service/gmaps?layers=risk:nicaragua_admin&#38;zoom={Z}&#38;x={X}&#38;y={Y}', isPng:true, opacity:0.5 } );</code></p>\n"
 "\n"
 "    <h3>Shapefile/GeoJSON/GML输出</h3>\n"
-"    <p>利用WFS协议从GeoNode网站服务中得到数据。举个例子，为了得到完整的Nicaraguan行"
-"政边界：</p>\n"
-"    <p><code>http://demo.geonode.org/geoserver/wfs?request=GetFeature&#38;"
-"typeName=risk:nicaragua_admin&#38;outputformat=SHAPE-ZIP</code></p>\n"
-"    <p>改变输出格式到<code>json</code>, <code>GML2</code>, "
-"<code>GML3</code>, or <code>csv</code> 将得到这些格式的数据。WFS协议也可以处理更"
-"多精确的查询，区分一个边界矩形或者基于数据属性的各种各样的空间和非空间的过滤器。</p>\n"
+"    <p>利用WFS协议从GeoNode网站服务中得到数据。举个例子，为了得到完整的Nicaraguan行政边界：</p>\n"
+"    <p><code>http://demo.geonode.org/geoserver/wfs?request=GetFeature&#38;typeName=risk:nicaragua_admin&#38;outputformat=SHAPE-ZIP</code></p>\n"
+"    <p>改变输出格式到<code>json</code>, <code>GML2</code>, <code>GML3</code>, or <code>csv</code> 将得到这些格式的数据。WFS协议也可以处理更多精确的查询，区分一个边界矩形或者基于数据属性的各种各样的空间和非空间的过滤器。</p>\n"
 "\n"
 "    <h3>GeoTools代码示例</h3>\n"
-"    <p>创建一个数据存储对象，从中提取一个特征类型，然后进行查询。这全部被记录在wiki"
-"<code>http://geotools.org/</code>。</p>\n"
+"    <p>创建一个数据存储对象，从中提取一个特征类型，然后进行查询。这全部被记录在wiki<code>http://geotools.org/</code>。</p>\n"
 "    "
 
 #: geonode/templates/developer.html:65
@@ -4498,85 +3856,48 @@ msgid "GeoNode Help"
 msgstr "GeoNode帮助"
 
 #: geonode/templates/help.html:12
-msgid ""
-"This page provides helpful information about how to use the GeoNode. You can "
-"use the sidebar links to navigate to what you want to know."
+msgid "This page provides helpful information about how to use the GeoNode. You can use the sidebar links to navigate to what you want to know."
 msgstr "本页提供如何使用GeoNode的帮助信息。请点击工具栏链接了解您想知道的内容"
 
 #: geonode/templates/help.html:14
 msgid ""
 "\n"
-"    <p>The GeoNode provides access to data sets and a map editing "
-"application allows users to browse existing maps and contribute their own.</"
-"p>\n"
+"    <p>The GeoNode provides access to data sets and a map editing application allows users to browse existing maps and contribute their own.</p>\n"
 "\n"
 "    <h4 id=\"browsing-data\">Browsing Layers</h4>\n"
-"    <p>The <a href=\"/layers\">Layers</a> tab allows you to browse data "
-"uploaded to this GeoNode.</p>\n"
-"    <p>All data can be downloaded in a variety of formats, for use in other "
-"applications.</p>\n"
+"    <p>The <a href=\"/layers\">Layers</a> tab allows you to browse data uploaded to this GeoNode.</p>\n"
+"    <p>All data can be downloaded in a variety of formats, for use in other applications.</p>\n"
 "\n"
 "    <h4 id=\"developer-access\">Developer Access</h4>\n"
-"    <p>The <a href=\"/developer\"> Developer</a> page is the place for "
-"developers to get started building applications against the GeoNode. It "
-"includes instructions on using the web services, links to the source code of "
-"the GeoNode, and information about the open source projects used to create "
-"it.</p>\n"
+"    <p>The <a href=\"/developer\"> Developer</a> page is the place for developers to get started building applications against the GeoNode. It includes instructions on using the web services, links to the source code of the GeoNode, and information about the open source projects used to create it.</p>\n"
 "\n"
 "    <h4 id=\"browsing-maps\">Browsing Maps</h4>\n"
-"    <p>The GeoNode allows users to create and share maps with one another.</"
-"p>\n"
-"    <p>The <a href=\"/maps\">Maps</a> tab is a gateway to map exploration on "
-"GeoNode.  From here you can <strong>search for a map</strong> or "
-"<strong>create a map</strong>, which will open the <a href=\"/maps/new\">Map "
-"Composer</a>.</p>\n"
+"    <p>The GeoNode allows users to create and share maps with one another.</p>\n"
+"    <p>The <a href=\"/maps\">Maps</a> tab is a gateway to map exploration on GeoNode.  From here you can <strong>search for a map</strong> or <strong>create a map</strong>, which will open the <a href=\"/maps/new\">Map Composer</a>.</p>\n"
 "    <h5>Google Earth Mode</h5>\n"
-"    <p>Any map viewed in the interactive map editor can be seen in 3D mode "
-"with the Google Earth plugin. To switch to 3D mode select the Google Earth "
-"globe logo, the rightmost button on top toolbar. If you do not have the "
-"Google Earth plugin installed you will be prompted to install it.</p>\n"
+"    <p>Any map viewed in the interactive map editor can be seen in 3D mode with the Google Earth plugin. To switch to 3D mode select the Google Earth globe logo, the rightmost button on top toolbar. If you do not have the Google Earth plugin installed you will be prompted to install it.</p>\n"
 "\n"
 "    <h4 id=\"creating-a-map\">Creating a Map</h4>\n"
-"    <p>To create a new map go to the <a href=\"/maps\">Contributed Maps</a> "
-"tab and click the <a href=\"/maps/new\">create your own map</a> link.</p>\n"
-"    <p>This will take you to the <a href=\"/maps/new\">Map Composer</a> with "
-"a base layer loaded.</p>\n"
-"    <p>To add data layers from the GeoNode click on the green plus button "
-"located below the layers tab on the left hand side of the screen. This will "
-"open a dialog listing all the layers available on the GeoNode.</p>\n"
-"    <p>To add layers to your map select them and hit the <strong>Add Layers</"
-"strong> button. When finished you may hit <strong>Done</strong> to close the "
-"dialog and go back to the map.</p>\n"
+"    <p>To create a new map go to the <a href=\"/maps\">Contributed Maps</a> tab and click the <a href=\"/maps/new\">create your own map</a> link.</p>\n"
+"    <p>This will take you to the <a href=\"/maps/new\">Map Composer</a> with a base layer loaded.</p>\n"
+"    <p>To add data layers from the GeoNode click on the green plus button located below the layers tab on the left hand side of the screen. This will open a dialog listing all the layers available on the GeoNode.</p>\n"
+"    <p>To add layers to your map select them and hit the <strong>Add Layers</strong> button. When finished you may hit <strong>Done</strong> to close the dialog and go back to the map.</p>\n"
 "\n"
 "    <h5>Reordering and Removing Layers</h5>\n"
-"    <p>Change the display order of the layers listed in the data tab by "
-"simply dragging and dropping their names. The order in the map will be "
-"updated to reflect that. To turn a layer's visibility off simply uncheck it, "
-"and to remove it entirely select it and hit the red minus button.</p>\n"
+"    <p>Change the display order of the layers listed in the data tab by simply dragging and dropping their names. The order in the map will be updated to reflect that. To turn a layer's visibility off simply uncheck it, and to remove it entirely select it and hit the red minus button.</p>\n"
 "\n"
 "    <h5>Saving your map</h5>\n"
-"    <p>Once a suitable set of layers and zoom level has been found it's time "
-"to save it so others can see it.  Click the Save button--the left most icon "
-"on the top toolbar, an image of a map with a disk--on the top menu and fill "
-"out the title and abstract of the map.</p>\n"
+"    <p>Once a suitable set of layers and zoom level has been found it's time to save it so others can see it.  Click the Save button--the left most icon on the top toolbar, an image of a map with a disk--on the top menu and fill out the title and abstract of the map.</p>\n"
 "\n"
 "    <h4 id=\"exporting-a-map\">Publishing a Map</h4>\n"
-"    <p>Any map from the GeoNode can be embedded for use in another site or "
-"blog. To publish a map:</p>\n"
+"    <p>Any map from the GeoNode can be embedded for use in another site or blog. To publish a map:</p>\n"
 "    <ol>\n"
-"      <li>Select the from the list of maps on the community or map page and "
-"then hit the 'Publish map' button.</li>\n"
-"      <li>Choose your desired height and width for the widget in the wizard."
-"</li>\n"
-"      <li>Copy the HTML snippet provided in the wizard to any HTML page or "
-"iFrame-supporting blog post.</li>\n"
+"      <li>Select the from the list of maps on the community or map page and then hit the 'Publish map' button.</li>\n"
+"      <li>Choose your desired height and width for the widget in the wizard.</li>\n"
+"      <li>Copy the HTML snippet provided in the wizard to any HTML page or iFrame-supporting blog post.</li>\n"
 "    </ol>\n"
-"    <p>This will put an interactive widget showing you map in your web page "
-"or blog post.</p>\n"
-"    <p>Note that the <a href=\"/maps/new\">Map Composer</a> also has a "
-"button to publish the map. Just be sure to save the map before publishing if "
-"there are changes that you want others to see. It publishes the last saved "
-"version, not the last viewed version.</p>\n"
+"    <p>This will put an interactive widget showing you map in your web page or blog post.</p>\n"
+"    <p>Note that the <a href=\"/maps/new\">Map Composer</a> also has a button to publish the map. Just be sure to save the map before publishing if there are changes that you want others to see. It publishes the last saved version, not the last viewed version.</p>\n"
 "\n"
 "    <h4 id=\"remixing-a-map\">Remixing a Map</h4>\n"
 "    <p>Any map available can serve as a starting point for a new map.</p>\n"
@@ -4584,67 +3905,49 @@ msgid ""
 "      <li>Open the map in the Map Composer.</li>\n"
 "      <li>Add and remove layers as you like.</li>\n"
 "      <li>Pan and zoom to highlight the area of interest.</li>\n"
-"      <li><strong>IMPORTANT:</strong> Update the title, abstract, contact "
-"info and tags to reflect the new map.</li>\n"
+"      <li><strong>IMPORTANT:</strong> Update the title, abstract, contact info and tags to reflect the new map.</li>\n"
 "      <li>Save the map.</li>\n"
 "    </ol>\n"
-"    <p>You will be able to see your new map when you search for it from the "
-"<a href=\"/maps\">Maps</a> tab.</p>\n"
+"    <p>You will be able to see your new map when you search for it from the <a href=\"/maps\">Maps</a> tab.</p>\n"
 "    "
 msgstr ""
 "\n"
-"    <p>GeoNode提供获取数据集的通道和一种使用户能够浏览已存在地图和投稿自己的地图的地图"
-"编辑应用。</p>\n"
+"    <p>GeoNode提供获取数据集的通道和一种使用户能够浏览已存在地图和投稿自己的地图的地图编辑应用。</p>\n"
 "\n"
 "    <h4 id=\"browsing-data\">浏览图层</h4>\n"
 "    <p><a href=\"/layers\">Layers</a>标签允许您去浏览那些被上传到GeoNode上的数据。</p>\n"
 "    <p>为了在其他应用上使用，所有数据都可以以多种格式下载。</p>\n"
 "\n"
 "    <h4 id=\"developer-access\">开发者使用权</h4>\n"
-"    <p><a href=\"/developer\">开发者</a>页面是一个开发者开始构建不同于GeoNode应用的"
-"地方。它包括网络服务的使用说明，GeoNode源代码的链接和用于创建它的关于开源项目的信息。</p>\n"
+"    <p><a href=\"/developer\">开发者</a>页面是一个开发者开始构建不同于GeoNode应用的地方。它包括网络服务的使用说明，GeoNode源代码的链接和用于创建它的关于开源项目的信息。</p>\n"
 "\n"
 "    <h4 id=\"browsing-maps\">浏览地图</h4>\n"
 "    <p>GeoNode允许用户创建和分享地图给他人。</p>\n"
-"    <p><a href=\"/maps\">Maps</a>标签是一个在GeoNode上浏览地图的途径。从这里您可以"
-"<strong>搜索一张地图</strong>或者<strong>创建一张地图</strong>, 这将会打开<a href"
-"=\"/maps/new\">地图编辑器</a>。</p>\n"
+"    <p><a href=\"/maps\">Maps</a>标签是一个在GeoNode上浏览地图的途径。从这里您可以<strong>搜索一张地图</strong>或者<strong>创建一张地图</strong>, 这将会打开<a href=\"/maps/new\">地图编辑器</a>。</p>\n"
 "    <h5>谷歌地球模式</h5>\n"
-"    <p>任何在交互地图编辑器上观察的地图可以利用谷歌地球的插件用3D的形式进行观看。"
-"为了转换至3D模式，选择谷歌地球按钮，它在上方工具栏中最右方的。如果您没有安装谷歌地球的"
-"插件，您将会被提示安装插件。</p>\n"
+"    <p>任何在交互地图编辑器上观察的地图可以利用谷歌地球的插件用3D的形式进行观看。为了转换至3D模式，选择谷歌地球按钮，它在上方工具栏中最右方的。如果您没有安装谷歌地球的插件，您将会被提示安装插件。</p>\n"
 "\n"
 "    <h4 id=\"creating-a-map\">创建地图</h4>\n"
-"    <p>为了创建一张新的地图，进入<a href=\"/maps\">查看地图</a>标签，然后点击<a hr"
-"ef=\"/maps/new\">创建您自己的地图</a>链接。</p>\n"
+"    <p>为了创建一张新的地图，进入<a href=\"/maps\">查看地图</a>标签，然后点击<a href=\"/maps/new\">创建您自己的地图</a>链接。</p>\n"
 "    <p>这将会带您进入<a href=\"/maps/new\">地图编辑器</a>，同时加载一个基础图层。</p>\n"
-"    <p>为了从GeoNode添加数据图层，点击绿色加号按钮，它位于图层底部，在屏幕的左手边。这"
-"将会打开一个会话，该会话中列出了GeoNode上所有可用的图层。</p>\n"
-"    <p>为了添加图层倒您的地图，选中它们，点击<strong>添加图层</strong>按钮。当完成时，"
-"您可以点击<strong>Done</strong>去关闭会话，返回地图。</p>\n"
+"    <p>为了从GeoNode添加数据图层，点击绿色加号按钮，它位于图层底部，在屏幕的左手边。这将会打开一个会话，该会话中列出了GeoNode上所有可用的图层。</p>\n"
+"    <p>为了添加图层倒您的地图，选中它们，点击<strong>添加图层</strong>按钮。当完成时，您可以点击<strong>Done</strong>去关闭会话，返回地图。</p>\n"
 "\n"
 "    <h5>重排和移除图层</h5>\n"
-"    <p>通过简单地拖拽和放下它们的名称来改变列在标签中的图层展示顺序。在地图上的顺序将会"
-"通过更新体现出来。简单地不选中图层该将会关闭该图层的可见性，选中图层并点击红色减号按钮"
-"将完全地移除该图层。</p>\n"
+"    <p>通过简单地拖拽和放下它们的名称来改变列在标签中的图层展示顺序。在地图上的顺序将会通过更新体现出来。简单地不选中图层该将会关闭该图层的可见性，选中图层并点击红色减号按钮将完全地移除该图层。</p>\n"
 "\n"
 "    <h5>保存地图</h5>\n"
-"    <p>当找到一个合适的图层集和缩放级别时，需要进行保存，这样其他人就可以看见它。点击保"
-"存按钮--在顶部工具栏最左边的图标，一个带有磁盘的地图影像--在顶部菜单，然后填写地图的标题"
-"和摘要。</p>\n"
+"    <p>当找到一个合适的图层集和缩放级别时，需要进行保存，这样其他人就可以看见它。点击保存按钮--在顶部工具栏最左边的图标，一个带有磁盘的地图影像--在顶部菜单，然后填写地图的标题和摘要。</p>\n"
 "\n"
 "    <h4 id=\"exporting-a-map\">发布一张地图</h4>\n"
 "    <p>任何来自GeoNode的地图可以在另一个网站或者博客被嵌入使用。发布一张地图：</p>\n"
 "    <ol>\n"
 "      <li>从社区地图列表或者地图页面中选择一个地图，然后单击\"发布地图\"按钮。</li>\n"
 "      <li>为安装向导产品选择您想要的高度和宽度。</li>\n"
-"      <li>复制在安装向导中提供的HTML消息给任何HTML页面或者iFrame-supporting博客站"
-"</li>\n"
+"      <li>复制在安装向导中提供的HTML消息给任何HTML页面或者iFrame-supporting博客站</li>\n"
 "    </ol>\n"
 "    <p>这将会放置一个交互的装置在您的网络页面上展示您的地图或者博客站点。</p>\n"
-"    <p>注意<a href=\"/maps/new\">地图编辑器</a>也有一个发布地图的按钮。如果您有任"
-"何希望其他人看见的改动，请在发布地图前确认保存过地图。地图编辑器会发布最后一次保存的地图"
-"版本而不是最后看见的版本。</p>\n"
+"    <p>注意<a href=\"/maps/new\">地图编辑器</a>也有一个发布地图的按钮。如果您有任何希望其他人看见的改动，请在发布地图前确认保存过地图。地图编辑器会发布最后一次保存的地图版本而不是最后看见的版本。</p>\n"
 "\n"
 "    <h4 id=\"remixing-a-map\">重新混合地图</h4>\n"
 "    <p>任何可用的地图都可以作为一个新地图的起点。</p>\n"
@@ -4655,8 +3958,7 @@ msgstr ""
 "      <li><strong>重要:</strong>更新标题、摘要、联系方式、信息和标签来显示新地图。</li>\n"
 "      <li>保存地图。</li>\n"
 "    </ol>\n"
-"    <p>当您搜索地图自"
-"<a href=\"/maps\">Maps</a>标签，您将能够看见您的新地图</p>\n"
+"    <p>当您搜索地图自<a href=\"/maps\">Maps</a>标签，您将能够看见您的新地图</p>\n"
 "    "
 
 #: geonode/templates/help.html:66
@@ -4692,26 +3994,16 @@ msgid "Welcome!"
 msgstr "欢迎您！"
 
 #: geonode/templates/index.html:18
-msgid ""
-"If you have any questions about the software or service, join our <a href="
-"\"http://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users\">mailing "
-"list</a>."
-msgstr ""
-"如果您有任何关于该软件或服务的问题，加入我们<a href=\"http://lists.osgeo.org/cgi-"
-"bin/mailman/listinfo/geonode-users\">mailing list</a>。"
-
+msgid "If you have any questions about the software or service, join our <a href=\"http://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users\">mailing list</a>."
+msgstr "如果您有任何关于该软件或服务的问题，加入我们<a href=\"http://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users\">mailing list</a>。"
 
 #: geonode/templates/index.html:19
-#, fuzzy
-#| msgid "Getting Started"
 msgid "Get Started &raquo;"
 msgstr "入门"
 
 #: geonode/templates/index.html:28
-#, fuzzy
-#| msgid "Search"
 msgid "Search for Data."
-msgstr "查询"
+msgstr "搜索数据"
 
 #: geonode/templates/metadata_detail.html:26
 msgid "Return to Document"
@@ -4722,10 +4014,8 @@ msgid "Return to Layer"
 msgstr "返回图层"
 
 #: geonode/templates/metadata_detail.html:30
-#, fuzzy
-#| msgid "Return to"
 msgid "Return to Map"
-msgstr "返回到"
+msgstr "返回到地图"
 
 #: geonode/templates/metadata_detail.html:38
 msgid "Identification"
@@ -4735,14 +4025,11 @@ msgstr "身份认证"
 msgid "Published"
 msgstr "发布"
 
-#: geonode/templates/metadata_detail.html:103
-#: geonode/templates/metadata_detail.html:106
+#: geonode/templates/metadata_detail.html:103 geonode/templates/metadata_detail.html:106
 msgid "Yes"
 msgstr "是的"
 
-#: geonode/templates/metadata_detail.html:123
-#: geonode/templates/metadata_detail.html:265
-#: geonode/templates/metadata_detail.html:341
+#: geonode/templates/metadata_detail.html:123 geonode/templates/metadata_detail.html:265 geonode/templates/metadata_detail.html:341
 msgid "email"
 msgstr "电子邮件"
 
@@ -4819,8 +4106,7 @@ msgid "has requested access to the site."
 msgstr "已经请求进入网站。"
 
 #: geonode/templates/pinax/notifications/account_approve/full.txt:1
-msgid ""
-"You can enable access by setting the user as active on the admin section"
+msgid "You can enable access by setting the user as active on the admin section"
 msgstr "您可以在管理部分通过设置用户为活动状态进入"
 
 #: geonode/templates/pinax/notifications/account_approve/short.txt:3
@@ -4831,15 +4117,11 @@ msgstr "一个用户已经请求进入网站"
 msgid "A comment has been posted for the document"
 msgstr "该文档有一个评论发布"
 
-#: geonode/templates/pinax/notifications/document_comment/full.txt:3
-#: geonode/templates/pinax/notifications/layer_comment/full.txt:3
-#: geonode/templates/pinax/notifications/map_comment/full.txt:4
+#: geonode/templates/pinax/notifications/document_comment/full.txt:3 geonode/templates/pinax/notifications/layer_comment/full.txt:3 geonode/templates/pinax/notifications/map_comment/full.txt:4
 msgid "by the user"
 msgstr "被用户"
 
-#: geonode/templates/pinax/notifications/document_comment/full.txt:5
-#: geonode/templates/pinax/notifications/document_created/full.txt:6
-#: geonode/templates/pinax/notifications/document_updated/full.txt:6
+#: geonode/templates/pinax/notifications/document_comment/full.txt:5 geonode/templates/pinax/notifications/document_created/full.txt:6 geonode/templates/pinax/notifications/document_updated/full.txt:6
 msgid "You can visit the document's detail page here"
 msgstr "您可以在这里阅读文档的具体信息"
 
@@ -4847,12 +4129,7 @@ msgstr "您可以在这里阅读文档的具体信息"
 msgid "A comment has been posted for a document"
 msgstr "一个文档有个评论发布"
 
-#: geonode/templates/pinax/notifications/document_created/full.txt:3
-#: geonode/templates/pinax/notifications/document_rated/full.txt:3
-#: geonode/templates/pinax/notifications/layer_created/full.txt:3
-#: geonode/templates/pinax/notifications/layer_rated/full.txt:3
-#: geonode/templates/pinax/notifications/map_created/full.txt:3
-#: geonode/templates/pinax/notifications/map_rated/full.txt:3
+#: geonode/templates/pinax/notifications/document_created/full.txt:3 geonode/templates/pinax/notifications/document_rated/full.txt:3 geonode/templates/pinax/notifications/layer_created/full.txt:3 geonode/templates/pinax/notifications/layer_rated/full.txt:3 geonode/templates/pinax/notifications/map_created/full.txt:3 geonode/templates/pinax/notifications/map_rated/full.txt:3
 #: geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:3
 msgid "The user"
 msgstr "该用户"
@@ -4869,15 +4146,8 @@ msgstr "一个文档已经上传"
 msgid "The following document was deleted"
 msgstr "下列文档被删除"
 
-#: geonode/templates/pinax/notifications/document_deleted/full.txt:4
-#: geonode/templates/pinax/notifications/document_rated/full.txt:6
-#: geonode/templates/pinax/notifications/document_updated/full.txt:4
-#: geonode/templates/pinax/notifications/layer_deleted/full.txt:4
-#: geonode/templates/pinax/notifications/layer_rated/full.txt:6
-#: geonode/templates/pinax/notifications/layer_updated/full.txt:4
-#: geonode/templates/pinax/notifications/map_deleted/full.txt:4
-#: geonode/templates/pinax/notifications/map_rated/full.txt:6
-#: geonode/templates/pinax/notifications/map_updated/full.txt:4
+#: geonode/templates/pinax/notifications/document_deleted/full.txt:4 geonode/templates/pinax/notifications/document_rated/full.txt:6 geonode/templates/pinax/notifications/document_updated/full.txt:4 geonode/templates/pinax/notifications/layer_deleted/full.txt:4 geonode/templates/pinax/notifications/layer_rated/full.txt:6 geonode/templates/pinax/notifications/layer_updated/full.txt:4 geonode/templates/pinax/notifications/map_deleted/full.txt:4
+#: geonode/templates/pinax/notifications/map_rated/full.txt:6 geonode/templates/pinax/notifications/map_updated/full.txt:4
 msgid "owned by"
 msgstr "属于"
 
@@ -4885,9 +4155,7 @@ msgstr "属于"
 msgid "A document has been deleted"
 msgstr "一个文档已经被删除"
 
-#: geonode/templates/pinax/notifications/document_rated/full.txt:4
-#: geonode/templates/pinax/notifications/layer_rated/full.txt:4
-#: geonode/templates/pinax/notifications/map_rated/full.txt:4
+#: geonode/templates/pinax/notifications/document_rated/full.txt:4 geonode/templates/pinax/notifications/layer_rated/full.txt:4 geonode/templates/pinax/notifications/map_rated/full.txt:4
 msgid "rated"
 msgstr "评分"
 
@@ -4895,11 +4163,7 @@ msgstr "评分"
 msgid "the following document"
 msgstr "下列文档"
 
-#: geonode/templates/pinax/notifications/document_rated/full.txt:8
-#: geonode/templates/pinax/notifications/layer_comment/full.txt:5
-#: geonode/templates/pinax/notifications/layer_created/full.txt:6
-#: geonode/templates/pinax/notifications/layer_rated/full.txt:8
-#: geonode/templates/pinax/notifications/layer_updated/full.txt:6
+#: geonode/templates/pinax/notifications/document_rated/full.txt:8 geonode/templates/pinax/notifications/layer_comment/full.txt:5 geonode/templates/pinax/notifications/layer_created/full.txt:6 geonode/templates/pinax/notifications/layer_rated/full.txt:8 geonode/templates/pinax/notifications/layer_updated/full.txt:6
 msgid "You can visit the layer's detail page here"
 msgstr "您可以在这里参阅该图层的具体信息"
 
@@ -4959,8 +4223,7 @@ msgstr "一个图层已经被更新"
 msgid "A comment has been posted for the map"
 msgstr "该地图的评论已经发布"
 
-#: geonode/templates/pinax/notifications/map_created/full.txt:6
-#: geonode/templates/pinax/notifications/map_rated/full.txt:8
+#: geonode/templates/pinax/notifications/map_created/full.txt:6 geonode/templates/pinax/notifications/map_rated/full.txt:8
 msgid "You can visit the map's detail page here"
 msgstr "您可以在这里参阅该地图的详细信息"
 
@@ -5005,16 +4268,14 @@ msgid "requested you to download this resource"
 msgstr "请您下载该资源"
 
 #: geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:12
-msgid ""
-"Please go to resource page and assign the download permissions if you wish"
+msgid "Please go to resource page and assign the download permissions if you wish"
 msgstr "如果您愿意，请前往资源页面设置下载许可"
 
 #: geonode/templates/pinax/notifications/request_download_resourcebase/short.txt:3
 msgid "A resource's download has been requested"
 msgstr "一个资源的下载请求已提交"
 
-#: geonode/templates/relationships/_list_connections.html:3
-#: geonode/templates/relationships/_manage_connections.html:6
+#: geonode/templates/relationships/_list_connections.html:3 geonode/templates/relationships/_manage_connections.html:6
 msgid "Following"
 msgstr "关注"
 
@@ -5038,8 +4299,7 @@ msgstr "管理联系"
 msgid "Blocking"
 msgstr "排除"
 
-#: geonode/templates/relationships/_profile_follow.html:6
-#: geonode/templates/relationships/relationship_list.html:16
+#: geonode/templates/relationships/_profile_follow.html:6 geonode/templates/relationships/relationship_list.html:16
 msgid "Unfollow"
 msgstr "取消关注"
 
@@ -5047,8 +4307,7 @@ msgstr "取消关注"
 msgid "Follow"
 msgstr "关注"
 
-#: geonode/templates/relationships/_profile_follow.html:14
-#: geonode/templates/relationships/relationship_list.html:20
+#: geonode/templates/relationships/_profile_follow.html:14 geonode/templates/relationships/relationship_list.html:20
 msgid "Unblock"
 msgstr "解锁"
 
@@ -5056,8 +4315,7 @@ msgstr "解锁"
 msgid "Block"
 msgstr "锁定"
 
-#: geonode/templates/relationships/confirm.html:4
-#: geonode/templates/relationships/confirm.html:7
+#: geonode/templates/relationships/confirm.html:4 geonode/templates/relationships/confirm.html:7
 msgid "No longer"
 msgstr "不再"
 
@@ -5091,8 +4349,7 @@ msgstr "%(to_user_username)s 的信息"
 msgid "Extent"
 msgstr "程度"
 
-#: geonode/templates/search/_general_filters.html:4
-#: geonode/templates/search/_search_user_content.html:27
+#: geonode/templates/search/_general_filters.html:4 geonode/templates/search/_search_user_content.html:27
 msgid "Categories"
 msgstr "种类"
 
@@ -5104,8 +4361,7 @@ msgstr "拥有者"
 msgid "Date begins after:"
 msgstr "日期之后开始："
 
-#: geonode/templates/search/_general_filters.html:36
-#: geonode/templates/search/_general_filters.html:40
+#: geonode/templates/search/_general_filters.html:36 geonode/templates/search/_general_filters.html:40
 msgid "yyyy-mm-dd"
 msgstr "YYYY-MM-DD"
 
@@ -5133,27 +4389,19 @@ msgstr "过滤器"
 msgid "search"
 msgstr "搜索"
 
-#: geonode/templates/search/_sort_filters.html:36
-#: geonode/templates/search/_sort_filters.html:42
-#: geonode/templates/search/_sort_filters.html:47
+#: geonode/templates/search/_sort_filters.html:36 geonode/templates/search/_sort_filters.html:42 geonode/templates/search/_sort_filters.html:47
 msgid "Most recent"
 msgstr "时间正序"
 
-#: geonode/templates/search/_sort_filters.html:37
-#: geonode/templates/search/_sort_filters.html:43
-#: geonode/templates/search/_sort_filters.html:48
+#: geonode/templates/search/_sort_filters.html:37 geonode/templates/search/_sort_filters.html:43 geonode/templates/search/_sort_filters.html:48
 msgid "Less recent"
 msgstr "时间倒序"
 
-#: geonode/templates/search/_sort_filters.html:38
-#: geonode/templates/search/_sort_filters.html:44
-#: geonode/templates/search/_sort_filters.html:49
+#: geonode/templates/search/_sort_filters.html:38 geonode/templates/search/_sort_filters.html:44 geonode/templates/search/_sort_filters.html:49
 msgid "A - Z"
 msgstr "字符正序"
 
-#: geonode/templates/search/_sort_filters.html:39
-#: geonode/templates/search/_sort_filters.html:45
-#: geonode/templates/search/_sort_filters.html:50
+#: geonode/templates/search/_sort_filters.html:39 geonode/templates/search/_sort_filters.html:45 geonode/templates/search/_sort_filters.html:50
 msgid "Z - A"
 msgstr "字符倒序"
 
@@ -5166,13 +4414,10 @@ msgid "Text"
 msgstr "文本"
 
 #: geonode/templates/search/_text_filter.html:10
-#, fuzzy
-#| msgid "Search"
 msgid "Search by text"
-msgstr "查询"
+msgstr "通过文本搜索"
 
-#: geonode/templates/search/search.html:6
-#: geonode/templates/search/search.html:12
+#: geonode/templates/search/search.html:6 geonode/templates/search/search.html:12
 msgid "Search"
 msgstr "查询"
 
@@ -5200,8 +4445,7 @@ msgstr "预览"
 msgid "Delete?"
 msgstr "删除？"
 
-#: geonode/templates/user_messages/_message_snippet.html:29
-#: geonode/templates/user_messages/thread_detail.html:14
+#: geonode/templates/user_messages/_message_snippet.html:29 geonode/templates/user_messages/thread_detail.html:14
 msgid "me"
 msgstr "我"
 
@@ -5213,9 +4457,7 @@ msgstr "收件箱"
 msgid "Messages"
 msgstr "消息"
 
-#: geonode/templates/user_messages/inbox.html:38
-#: geonode/templates/user_messages/message_create.html:6
-#: geonode/templates/user_messages/message_create.html:9
+#: geonode/templates/user_messages/inbox.html:38 geonode/templates/user_messages/message_create.html:6 geonode/templates/user_messages/message_create.html:9
 msgid "Create Message"
 msgstr "创建短信"
 
@@ -5223,8 +4465,7 @@ msgstr "创建短信"
 msgid "Send message"
 msgstr "发送短信"
 
-#: geonode/templates/user_messages/message_create.html:22
-#: geonode/templates/user_messages/thread_detail.html:32
+#: geonode/templates/user_messages/message_create.html:22 geonode/templates/user_messages/thread_detail.html:32
 msgid "Back to Inbox"
 msgstr "回到收件箱"
 
@@ -5241,42 +4482,124 @@ msgid "Permission Denied"
 msgstr "权限级别"
 
 #: geonode/utils.py:67 geonode/maps/models.py:58
-msgid "<h4>About Us</h4><p>\
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-    A large amount of geographical information which is closely related to human activities exists in the \
-    brilliant human civilization, numerous documents since ancient times, as well as the vast land and ocean. \
-    For example, the geographical distribution of individuals, the traces and the social relations for a single \
-    person, the migration of a group, as well as the existence, distribution and change of a region and \
-    trajectory for non-living things; as for a place, it also contains the people, events, things and other \
-    geographical information in previous time.</p>\
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-    The Academic Map Publishing Platform, established by Zhejiang University and Harvard University \
-    together, is not only an integrated database providing multi-functional query services, but also a display \
-    platform ready for users to present their research productions about geographic information and visualize \
-    analysis and select. The big data formed by the platform, will greatly contribute to future scientific \
-    research, overnment decision-making and social services.</p>"
-msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-灿烂辉煌的人类文明、浩如烟海的古今文献以及广袤无垠的陆地海洋，存在着海量的与人类活动息息相\
-关的地理信息。就单个人物来说，包括人物的籍贯、行迹、社会关系的地理分布；就群体来说，包括一个群体\
-的地理分布和迁徙轨迹；就非生命的物体来说，也有其存在、分布和变化的地理区域；就一个地方来说，则又\
-包含了既往时间里人、事、物等地理信息的总汇。</p>\
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-由浙江大学与哈佛大学共建的学术地图发布平台愿为广大用户提供地理信息研究成果的发布、可视化分析\
-及多功能查询服务，平台所形成的大数据，可以为未来科学研究、政府决策及社会服务提供重要的参考。</p>"
+msgid "<h4>About Us</h4><p>"
+msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 
 #: geonode/templates/pinax/notifications/notice_settings.html
 msgid "Notification Settings"
 msgstr "通知设置"
+
 msgid "Notification Type"
 msgstr "通知类型"
+
 msgid "Change"
 msgstr "修改"
 
-#~ msgid ""
-#~ "information about on-line sources from which the dataset, specification, "
-#~ "or community profile name and extended metadata elements can be obtained"
-#~ msgstr ""
-#~ "包含来自数据集、说明书或者社区简介的在线资源命名、扩展元数据要素的信息"
+msgid "Note"
+msgstr "注意"
+
+msgid "You do not have a verified email address to which notices can be sent. You can add one by going to <a href=\"%(email_url)s\">Account</a>."
+msgstr "您没有一个已被验证可以用来发送通知的邮件地址。您可以通过前往<a href=\"%(email_url)s\">账户</a>添加一个地址。"
+
+#: geonode/contrib/createlayer/forms.py:67
+msgid "Layer name"
+msgstr "图层名"
+
+msgid "Layer title"
+msgstr "图层标题"
+
+msgid "Geometry type"
+msgstr "几何类型"
+
+#: geonode/layers/forms.py:67
+msgid "Metadata uploaded preserve"
+msgstr "上传的元数据是否保存？"
+
+#: geonode/templates/base.html.py:383
+msgid "Uploading..."
+msgstr "上传中..."
+
+#: geonode/templates/base.html.py:388
+msgid "Upload in progress..."
+msgstr "正在上传..."
+
+#: geonode/templates/base.html.py:405
+msgid "Updating Thumbnail..."
+msgstr "正在更新缩略图..."
+
+#: geonode/templates/base.html.py:383
+msgid "Message box"
+msgstr "消息框"
+
+#: geonode/templates/base.html.py:383
+msgid "OK"
+msgstr "好的"
+
+#: geonode/base/templates/base/_resourcebase_snippet.html:44
+msgid "No content created yet."
+msgstr "尚未创建任何内容。"
+
+msgid "Temporal Serie"
+msgstr "时间序列"
+
+msgid "PENDING APPROVAL"
+msgstr "等待审核"
+
+msgid "UNPUBLISHED"
+msgstr "未发布"
+
+#: geonode/templates/base.html:86
+msgid "You are using an outdated browser that is not supported by GeoNode."
+msgstr "您正在使用一个GeoNode不支持的过时网站"
+
+msgid "Please use a <strong>modern browser</strong> like Mozilla Firefox, Google Chrome or Safari."
+msgstr "请使用<strong>更新的浏览器</strong>，比如火狐、谷歌和苹果浏览器。"
+
+#: geonode/people/templates/_profile_list_item.html:18
+msgid "No Organization Info"
+msgstr "没有组织信息"
+
+#: geonode/groups/templates/groups/group_detail.html:22
+msgid "Last Modified"
+msgstr "最近修改"
+
+#: user/messages/forms.py
+msgid "Content"
+msgstr "最近修改"
+
+msgid "to users"
+msgstr "发送给用户"
+
+msgid "to groups"
+msgstr "发送给群体"
+
+#: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html
+msgid "By adding your layer features to the gazetteer, they will be searchable and viewable by anyone regardless of your layer's security permissions. If you do not choose at least one depict-date field, the system will use the depict-date in the layer metadata (if any)."
+msgstr "通过在地名词典中添加图层要素，无论您的图层的安全权限如何，该图层都可以被任何人检索和查看。 如果您没有选择用于描述日期的字段，系统将在图层元数据中自动选择描述日期的字段（如果有的话）。"
+
+msgid "Select fields for this layer to be part of the gazetteer"
+msgstr "为图层选择加入地名索引的字段"
+
+msgid "Optional Parameters"
+msgstr "可选参数"
+
+msgid "Custom Gazetteer Name"
+msgstr "自定义地名索引的名称"
+
+msgid "Start depict-date field"
+msgstr "描述起始日期的字段"
+
+msgid "Date Format (Examples: 'YYYY', 'MM/DD/YYYY', 'YYYY/MM/DD')"
+msgstr "日期格式（比如：‘YYYY’，‘MM/DD/YYYY’，‘YYYY/MM/DD’）"
+
+msgid "End depict-date field"
+msgstr "描述终止日期的字段"
+
+msgid "Update Gazetteer"
+msgstr "更新地名索引"
+
+#~ msgid "information about on-line sources from which the dataset, specification, or community profile name and extended metadata elements can be obtained"
+#~ msgstr "包含来自数据集、说明书或者社区简介的在线资源命名、扩展元数据要素的信息"
 
 #~ msgid "detailed text description of what the online resource is/does"
 #~ msgstr "关于在线资源是什么／做什么的详细文本描述"
@@ -5407,16 +4730,6 @@ msgstr "修改"
 #~ msgid "change under <a href=\"%(email_url)s\">Account</a>"
 #~ msgstr "在<a href=\"%(email_url)s\">账户</a>下改变"
 
-msgid "Note"
-msgstr "注意"
-
-msgid ""
-"You do not have a verified email address to which notices can be sent. "
-"You can add one by going to <a href=\"%(email_url)s\">Account</a>."
-msgstr ""
-"您没有一个已被验证可以用来发送通知的邮件地址。"
-"您可以通过前往<a href=\"%(email_url)s\">账户</a>添加一个地址。"
-
 #~ msgid "Mark all unseen notices seen"
 #~ msgstr "设置所有未读通知为已读"
 
@@ -5434,85 +4747,3 @@ msgstr ""
 
 #~ msgid "you"
 #~ msgstr "您"
-
-#: geonode/contrib/createlayer/forms.py:67
-msgid "Layer name"
-msgstr "图层名"
-msgid "Layer title"
-msgstr "图层标题"
-msgid "Geometry type"
-msgstr "几何类型"
-
-#: geonode/layers/forms.py:67
-msgid "Metadata uploaded preserve"
-msgstr "上传的元数据是否保存？"
-
-#: geonode/templates/base.html.py:383
-msgid "Uploading..."
-msgstr "上传中..."
-
-#: geonode/templates/base.html.py:388
-msgid "Upload in progress..."
-msgstr "正在上传..."
-
-#: geonode/templates/base.html.py:405
-msgid "Updating Thumbnail..."
-msgstr "正在更新缩略图..."
-
-#: geonode/templates/base.html.py:383
-msgid "Message box"
-msgstr "消息框"
-
-#: geonode/templates/base.html.py:383
-msgid "OK"
-msgstr "好的"
-
-#: geonode/base/templates/base/_resourcebase_snippet.html:44
-msgid "No content created yet."
-msgstr "尚未创建任何内容。"
-msgid "Temporal Serie"
-msgstr "时间序列"
-msgid "PENDING APPROVAL"
-msgstr "等待审核"
-msgid "UNPUBLISHED"
-msgstr "未发布"
-
-#: geonode/templates/base.html:86
-msgid "You are using an outdated browser that is not supported by GeoNode."
-msgstr "您正在使用一个GeoNode不支持的过时网站"
-msgid "Please use a <strong>modern browser</strong> like Mozilla Firefox, Google Chrome or Safari."
-msgstr "请使用<strong>更新的浏览器</strong>，比如火狐、谷歌和苹果浏览器。"
-
-#: geonode/people/templates/_profile_list_item.html:18
-msgid "No Organization Info"
-msgstr "没有组织信息"
-
-#: geonode/groups/templates/groups/group_detail.html:22
-msgid "Last Modified"
-msgstr "最近修改"
-
-#: user/messages/forms.py
-msgid "Content"
-msgstr "最近修改"
-msgid "to users"
-msgstr "发送给用户"
-msgid "to groups"
-msgstr "发送给群体"
-
-#: geonode/contrib/worldmap/gazetteer/templates/gazetteer/edit_layer_gazetteer.html
-msgid "By adding your layer features to the gazetteer, they will be searchable and viewable by anyone regardless of your layer's security permissions. If you do not choose at least one depict-date field, the system will use the depict-date in the layer metadata (if any)."
-msgstr "通过在地名词典中添加图层要素，无论您的图层的安全权限如何，该图层都可以被任何人检索和查看。 如果您没有选择用于描述日期的字段，系统将在图层元数据中自动选择描述日期的字段（如果有的话）。"
-msgid "Select fields for this layer to be part of the gazetteer"
-msgstr "为图层选择加入地名索引的字段"
-msgid "Optional Parameters"
-msgstr "可选参数"
-msgid "Custom Gazetteer Name"
-msgstr "自定义地名索引的名称"
-msgid "Start depict-date field"
-msgstr "描述起始日期的字段"
-msgid "Date Format (Examples: 'YYYY', 'MM/DD/YYYY', 'YYYY/MM/DD')"
-msgstr "日期格式（比如：‘YYYY’，‘MM/DD/YYYY’，‘YYYY/MM/DD’）"
-msgid "End depict-date field"
-msgstr "描述终止日期的字段"
-msgid "Update Gazetteer"
-msgstr "更新地名索引"
